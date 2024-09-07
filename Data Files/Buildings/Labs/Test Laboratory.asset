@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Test Laboratory
+  m_EditorClassIdentifier: 
+  id: vec_test_lab
+  name: Test Lab
+  usePrefix: 1
+  prefix: vec_
+  description: Converts a resource towards science. Must have an active research
+    tech selected to work.
+  useShortDesc: 1
+  shortDesc: Converts resources into science
+  components:
+  - rid: 8881817860695654407
+  - rid: 8881817860289069057
+  - rid: 4489530413812809728
+  preview: {fileID: 2800000, guid: 3c7206cf2b18b3147a4980478a531c57, type: 2}
+  category: 7
+  inventoryIndex: 0
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: d949750e663146b4eb63eb5b87f86017, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.71846104, b: 0.427451, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a5ef5f75b2c84b14fb6e6f18507231e5, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: b3286db8dc12242469f7c52c34511569, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 0e190f7d01ff1b648a9b265c84b30978, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.7662661, b: 0.427451, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+    amount: 50
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 4489530413812809728
+      type: {class: TestLabData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 1
+        storage: 10
+        useIndicator: 0
+        indicatorPosition: {x: 0, y: 0}
+        cooldown: 1
+        value: 1
+        effectData: {fileID: 11400000, guid: 38d19591daa77e2419b9f54f3ed21c2f, type: 2}
+        researchingSound: {fileID: 8300000, guid: d7f63ad768e1d1c4291f5fcc180e0bb5, type: 3}
+    - rid: 8881817860289069057
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 2
+        height: 2
+        requireAnyResource: 0
+        requiredResources: []
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817860695654407
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 25
+        type: 1

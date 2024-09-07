@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Shaded Gem
+  m_EditorClassIdentifier: 
+  id: resource_shaded_gem
+  name: Shaded Gem
+  usePrefix: 1
+  prefix: resource_
+  description: A voidstone infused with the chemical properties of osmium. Don't
+    listen to the voices!
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 1113fa3a281e6ed4e88a941af4018eb0, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 0.66715646, g: 0.45882356, b: 1, a: 1}
+    secondaryColor: {r: 0.31259882, g: 0.05882352, b: 0.6039216, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+  tier: 3
+  postfix: 
+  order: 204
+  power: 35
+  burnTime: 15
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

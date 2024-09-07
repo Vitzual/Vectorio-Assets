@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Ranger
+  m_EditorClassIdentifier: 
+  id: vec_ranger
+  name: Ranger
+  usePrefix: 1
+  prefix: vec_
+  description: Long-range turret that deals huge damage, but has an extremely slow
+    rate of fire.
+  useShortDesc: 1
+  shortDesc: Long-range high-damage
+  components:
+  - rid: 8881817862755319820
+  - rid: 8881817862755319821
+  - rid: 8881817862755319822
+  preview: {fileID: 2800000, guid: 8d6656977f8a48e468504aa84c9ce237, type: 2}
+  category: 1
+  inventoryIndex: 3
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: bc1a4474ab21eed469607d0ea969268f, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.7682013, b: 0.17647058, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 9a6452d3d4820e34da3e9f66f4b6a2ae, type: 3}
+      material: {fileID: 2100000, guid: a53f0436a238dc743b97030a8723e57d, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: cb58dca1c48657c489cf63da27d42aeb, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 8d84fd7414c7ed14691bc5f888e0fa87, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 1
+      overrideSprite: {fileID: 21300000, guid: 2ad8e568dd9e5fe42975f51498127bb6, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 73227b22da5a5bf45817119e8dd977ab, type: 2}
+    amount: 120
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 8
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817862755319820
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 25
+        type: 2
+    - rid: 8881817862755319821
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817862755319822
+      type: {class: TurretData, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 14
+        cooldown: 1.7
+        range: 16
+        explosive: 0
+        shootSound: {fileID: 8300000, guid: 2ce6382a321fd32498c146f9c6ae93f8, type: 3}
+        recoilAmplitude: 0.7
+        recoilFrequency: 17
+        rotationSpeed: 35
+        xFirePosition: 0
+        yFirePosition: 3
+        allowPredictiveAiming: 1
+        bullet: {fileID: 11400000, guid: b021e872de973c54ca5d6e15379a7409, type: 2}
+        bulletAccent:
+          primaryColor: {r: 1, g: 0.78845626, b: 0, a: 1}
+          secondaryColor: {r: 1, g: 0.7921569, b: 0, a: 1}
+          primaryMaterial: {fileID: 2100000, guid: a53f0436a238dc743b97030a8723e57d, type: 2}
+          secondaryMaterial: {fileID: 2100000, guid: a53f0436a238dc743b97030a8723e57d, type: 2}
+        bulletSpeed: 150
+        bulletSpeedOffset: 0
+        bulletLifetime: 1.5
+        bulletLifetimeOffset: 0
+        bulletSpread: 0
+        bulletSize: 2.5
+        bulletAmount: 1
+        bulletPierces: 0

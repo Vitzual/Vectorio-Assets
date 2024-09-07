@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Phantom Hub
+  m_EditorClassIdentifier: 
+  id: vec_phantom_hub
+  name: Phantom Hub
+  usePrefix: 1
+  prefix: vec_
+  description: The heart and soul of your base. Outputs a small amount of power to
+    kickstart your base.
+  components:
+  - rid: 8881817816770281499
+  - rid: 2834078561258438656
+  - rid: 8881817816770281498
+  - rid: 8881817909168701440
+  - rid: 2834078744103878657
+  preview: {fileID: 2800000, guid: 123f753f65bf6e44b9cf7224c0389a9e, type: 2}
+  category: 0
+  inventoryIndex: -1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 167a6ec18b0882844b50db299730f7ed, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.48242673, g: 0.25943398, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: e8341cd9a7da9564495ca50d436923c0, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 1804fdbea3cdbae45926bd22bdaa2362, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 5
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 0
+  normalCost:
+    resource: {fileID: 0}
+    amount: 0
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078561258438656
+      type: {class: IlluminatorData, ns: , asm: Assembly-CSharp}
+      data:
+        rotates: 0
+        rotateSpeed: 0
+        viewRadius: 50
+        softenDistance: 35
+        viewAngle: 360
+        opacity: 1
+    - rid: 2834078744103878657
+      type: {class: CrafterData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 1
+        storage: 100
+        useIndicator: 1
+        indicatorPosition: {x: 4.6, y: 2}
+        recipes:
+        - {fileID: 11400000, guid: 5408ffe8f10482a4a8a264e1a1a58a1e, type: 2}
+        - {fileID: 11400000, guid: 8b0351be8750dba43b0a82e1eba09933, type: 2}
+        - {fileID: 11400000, guid: 4c9dd214f2a76d6478a710374d8874bc, type: 2}
+        - {fileID: 11400000, guid: 9aaf49744a0e84e43ba8fb162e18a555, type: 2}
+    - rid: 8881817816770281498
+      type: {class: HubData, ns: , asm: Assembly-CSharp}
+      data:
+        spawnables:
+        - data: {fileID: 11400000, guid: e41fd1e5a57722b4c998ad63dc9a7c2b, type: 2}
+          modelID: default
+          position: {x: -4.4, y: 4.4}
+        - data: {fileID: 11400000, guid: e41fd1e5a57722b4c998ad63dc9a7c2b, type: 2}
+          modelID: default
+          position: {x: 4.4, y: 4.4}
+        - data: {fileID: 11400000, guid: e41fd1e5a57722b4c998ad63dc9a7c2b, type: 2}
+          modelID: default
+          position: {x: 4.4, y: -4.4}
+        - data: {fileID: 11400000, guid: e41fd1e5a57722b4c998ad63dc9a7c2b, type: 2}
+          modelID: default
+          position: {x: -4.4, y: -4.4}
+        - data: {fileID: 11400000, guid: 54f61b6dd8390c04485d2f14133681f9, type: 2}
+          modelID: default
+          position: {x: 0, y: 7}
+        - data: {fileID: 11400000, guid: 54f61b6dd8390c04485d2f14133681f9, type: 2}
+          modelID: default
+          position: {x: 7, y: 0}
+        - data: {fileID: 11400000, guid: 54f61b6dd8390c04485d2f14133681f9, type: 2}
+          modelID: default
+          position: {x: 0, y: -7}
+        - data: {fileID: 11400000, guid: 54f61b6dd8390c04485d2f14133681f9, type: 2}
+          modelID: default
+          position: {x: -7, y: 0}
+        startingPower: 100
+        effect: {fileID: 0}
+    - rid: 8881817816770281499
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+    - rid: 8881817909168701440
+      type: {class: ClaimerData, ns: , asm: Assembly-CSharp}
+      data:
+        range: 16

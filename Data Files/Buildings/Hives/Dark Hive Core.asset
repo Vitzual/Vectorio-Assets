@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Dark Hive Core
+  m_EditorClassIdentifier: 
+  id: vec_dark_hive_core
+  name: Dark Hive Core
+  usePrefix: 1
+  prefix: vec_
+  description: The core cell of a hive. Harder to destroy then the satellite cells.
+  components:
+  - rid: 7743134915502800898
+  - rid: 7743134915502800897
+  preview: {fileID: 2800000, guid: c3b29eeb40c9e6245aac31af5d4b08e7, type: 2}
+  category: 9
+  inventoryIndex: -1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 9c5d218dce776ff468d5312ad14789d9, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.29168466, g: 0.058873262, b: 0.5943396, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 2d55278fe83aba14e8db7eb3d543a9db, type: 3}
+      material: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 0
+  normalCost:
+    resource: {fileID: 0}
+    amount: 0
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7743134915502800897
+      type: {class: HiveData, ns: , asm: Assembly-CSharp}
+      data:
+        isCoreCell: 1
+        markerIcon: {fileID: 21300000, guid: ea2c4b06ff08f7e4cad055eb5b12f763, type: 3}
+        cells:
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: -2.15, y: -3.75}
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: -4.325, y: 0}
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: -2.15, y: 3.75}
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: 2.15, y: 3.75}
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: 4.325, y: 0}
+        - hiveData: {fileID: 11400000, guid: c284074c03fdd564cac630c23bd0363f, type: 2}
+          position: {x: 2.15, y: -3.75}
+        damageThreshold: 5
+        spawnRange: 50
+        colliderSize: 2.5
+        spawns:
+        - {fileID: 11400000, guid: 4b29377c8bda72545a88b364dd724d0a, type: 2}
+        - {fileID: 11400000, guid: ba3b32c757fc392479ea6a40d281532d, type: 2}
+        - {fileID: 11400000, guid: 7af841e8de8e7b44f80adf143db53909, type: 2}
+        - {fileID: 11400000, guid: 7e01978729b25644ba6051171a7147ef, type: 2}
+        - {fileID: 11400000, guid: 95c95906f3cf82a4f9c9a1312b23e702, type: 2}
+    - rid: 7743134915502800898
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 350

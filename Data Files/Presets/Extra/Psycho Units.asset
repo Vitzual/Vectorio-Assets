@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5517ee4da02f64abec1426b95df784, type: 3}
+  m_Name: Psycho Units
+  m_EditorClassIdentifier: 
+  id: preset_psycho_units
+  name: Psycho Units
+  usePrefix: 1
+  prefix: preset_
+  description: The true nightmare begins...
+  useShortDesc: 1
+  shortDesc: 
+  icon: {fileID: 21300000, guid: f4e68a4128e28164ca2a9b018c8db34a, type: 3}
+  glowColor: {r: 1, g: 0.2834145, b: 0.21226418, a: 1}
+  backgroundColor: {r: 0.3679245, g: 0.10239409, b: 0.10584257, a: 1}
+  sortingOrder: 10
+  allyModifiers:
+  - stat: 50
+    value: 4
+  - stat: 3
+    value: 1.5
+  - stat: 6
+    value: 2
+  enemyModifiers:
+  - stat: 14
+    value: 2
+  - stat: 15
+    value: 4
+  - stat: 16
+    value: 2
+  - stat: 17
+    value: 2
+  - stat: 18
+    value: 3
+  - stat: 2
+    value: 2
+  - stat: 19
+    value: 4

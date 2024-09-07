@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Radar
+  m_EditorClassIdentifier: 
+  id: vec_radar
+  name: Radar
+  usePrefix: 1
+  prefix: vec_
+  description: Marks the locations of resources, outposts, and other POI's around
+    it, even when covered by fog.
+  useShortDesc: 1
+  shortDesc: Scans for points of interest
+  components:
+  - rid: 2834078554107674624
+  - rid: 8881817816770281499
+  preview: {fileID: 2800000, guid: 54a6737508b3cca4080a78fca283e731, type: 2}
+  category: 6
+  inventoryIndex: 5
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 3f71be7a15f098943ac4a3926aeb4d3b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.2889801, g: 0.17399432, b: 0.4339623, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: d1d51ab6047f22f459a892be955683f6, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 044a33ad85a16f942889620f352da9c0, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 8dc34274d36d1ba4788fca32b7c3e2e5, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.5882353, g: 0.25490198, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 6ab651b4348504c42b4ca7af12a2fda6, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 7
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: bcef95ab088d2d8469b8e7b49d4ff84c, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 8
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 6b58cca81104aef40aaf25de2a2c97b5, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 6
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a0373d5e8b9dc104f896bbe6833e487b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.5411765, g: 0.1764706, b: 0.9843137, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 6
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 1
+      overrideUI: 1
+      overrideSprite: {fileID: 21300000, guid: df0c4a6893605d24cbc35e7ecb7632a2, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 250
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 50
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078554107674624
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 50
+        type: 1
+    - rid: 8881817816770281499
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 3
+        height: 3
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}

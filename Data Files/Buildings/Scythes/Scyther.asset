@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Scyther
+  m_EditorClassIdentifier: 
+  id: vec_scyther
+  name: Scyther
+  usePrefix: 1
+  prefix: vec_
+  description: An orbiting scythe which launches at nearby enemies, dealing huge
+    physical damage and knockback.
+  useShortDesc: 1
+  shortDesc: Throws an orbiting scythe
+  components:
+  - rid: 8881817862755319820
+  - rid: 8881817862755319821
+  - rid: 2834078598573064192
+  preview: {fileID: 2800000, guid: 9927f35b99b1e104fa52809e025e683a, type: 2}
+  category: 1
+  inventoryIndex: 9
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 59bd4e5e8e15ac543b4e6733e92f44d1, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.49384478, g: 0.24056602, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 2a15a8e2e3c8b5c4ea2f68116e2909ec, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 7070a3159f21dc14cab97b289cede63c, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 4fa742051c11fb247a4eb0ebb91bdb06, type: 3}
+      material: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 16ff753219a2cfe4dafb5f8502784b56, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 21300000, guid: 842de0f3007b0f648920b72c1c99f261, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 120
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 18
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078598573064192
+      type: {class: ScytheData, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 9
+        range: 8
+        timeToCrest: 0.8
+        cooldown: 0.5
+        rotationSpeed: -350
+        scytheSize: 3.5
+        hitSound: {fileID: 8300000, guid: ed76fee5fd1b32f438d7a7dec1ef3949, type: 3}
+    - rid: 8881817862755319820
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 15
+        type: 1
+    - rid: 8881817862755319821
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}

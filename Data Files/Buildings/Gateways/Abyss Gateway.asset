@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Abyss Gateway
+  m_EditorClassIdentifier: 
+  id: vec_abyss_gateway
+  name: Abyss Gateway
+  usePrefix: 1
+  prefix: vec_
+  description: A gateway which allows for transportation into The Abyss region.
+  useShortDesc: 1
+  shortDesc: Opens a portal to The Abyss
+  components:
+  - rid: 2834078598573064193
+  - rid: 2834078598573064194
+  preview: {fileID: 2800000, guid: 87b39d4706f8c844fb1b56aa3867228c, type: 2}
+  category: 11
+  inventoryIndex: 1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: a81587e480775444b9d3786d1d38a7d4, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.39607847, b: 0.43699357, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 2
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 97449000dca288240a7930cad692e60a, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 2
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: feface408ede8de4095cbe1f2dd593f3, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 2
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: d1026cc45ada6144eb2eeeb23299430a, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 2
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 88404a696b7247a488a2bf30a59a87c3, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.26666665, b: 0.26666665, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 2
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: c739577976a6e084d93d182cbf5f2ceb, type: 2}
+    amount: 1000
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 1500
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078598573064193
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 9
+        height: 9
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 2834078598573064194
+      type: {class: GatewayData, ns: , asm: Assembly-CSharp}
+      data:
+        region: {fileID: 11400000, guid: 95660009871bb7b41866eb3380046a90, type: 2}
+        particle: {fileID: 3900962024017814744, guid: 466ffc1d2cbffc441b1c6ce3fa7a3e37, type: 3}

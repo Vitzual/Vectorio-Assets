@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  id: resource_gold
+  name: Gold
+  usePrefix: 1
+  prefix: resource_
+  description: Basic resource used mainly for building costs and early-game research.
+  tile: {fileID: 11400000, guid: 2158c5d7b870f8241bc6c32b3d1e8e5b, type: 2}
+  iconSprite: {fileID: 21300000, guid: b3b137a9e05ba3b4289b1651dbba6734, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 1, g: 0.6936367, b: 0.2028302, a: 1}
+    secondaryColor: {r: 0.4056604, g: 0.26828188, b: 0.047837302, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 51dc5b77410868f49b933a98bf7d502f, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 51dc5b77410868f49b933a98bf7d502f, type: 2}
+  tier: 1
+  postfix: 
+  order: 0
+  power: 2
+  burnTime: 1
+  canBeStoredGlobally: 1
+  useSounds: 1
+  pickupSound: {fileID: 8300000, guid: 7bb849affb438224395b02ee6927ac83, type: 3}
+  dropoffSound: {fileID: 8300000, guid: 5251f5fcb1ec02644949ed0c5fc3272f, type: 3}

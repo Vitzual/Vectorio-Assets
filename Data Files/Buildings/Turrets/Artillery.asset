@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Artillery
+  m_EditorClassIdentifier: 
+  id: vec_artillery
+  name: Artillery
+  usePrefix: 1
+  prefix: vec_
+  description: Long-range defense that fires high-damaing shells. Tends to be inaccurate
+    on moving targets.
+  useShortDesc: 1
+  shortDesc: Long-range, high-impact
+  components:
+  - rid: 8881817862755319815
+  - rid: 8881817862755319814
+  - rid: 2834078374679019522
+  - rid: 8881817862755319818
+  preview: {fileID: 2800000, guid: 9ad6fd4157b570b45ad81c58ff10ea87, type: 2}
+  category: 1
+  inventoryIndex: 7
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 35cdb31e582b9f5438d3e62b8f08c81c, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.73020196, b: 0.3820755, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 636ca9c5f8822e04bb1dbabbd854445e, type: 3}
+      material: {fileID: 2100000, guid: 4fcf1d03367d95d4bb1cebd193a35157, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 8d15a86e090e21e40bf28b1d8f12e895, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: b39f8b51468970d4baa28ce747abcb21, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.4056604, g: 0.2728209, b: 0.1014151, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: cfc73506904129949a99857b433c25c6, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 1
+      overrideSprite: {fileID: 21300000, guid: 5e686c84b82c88847801a8bc5004bc4d, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 80a4fff40a3aff94fb4b644d8eca4c52, type: 2}
+    amount: 1500
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 60
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078374679019522
+      type: {class: AmmoBinData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 5
+        useIndicator: 1
+        indicatorPosition: {x: 0, y: 0}
+        ammoRequired: {fileID: 11400000, guid: cab5a7fe7c93f60449af01af0ade7a7b, type: 2}
+        ammoIconSize: 1
+    - rid: 8881817862755319814
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 2
+        height: 2
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817862755319815
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 150
+        type: 2
+    - rid: 8881817862755319818
+      type: {class: TurretData, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 70
+        cooldown: 6
+        range: 40
+        explosive: 0
+        shootSound: {fileID: 8300000, guid: 6e224c0175d01234689c9a863d425976, type: 3}
+        recoilAmplitude: 0.5
+        recoilFrequency: 5
+        rotationSpeed: 30
+        xFirePosition: 0
+        yFirePosition: 5
+        allowPredictiveAiming: 1
+        bullet: {fileID: 11400000, guid: b021e872de973c54ca5d6e15379a7409, type: 2}
+        bulletAccent:
+          primaryColor: {r: 1, g: 0.47996545, b: 0, a: 1}
+          secondaryColor: {r: 1, g: 0.48235294, b: 0, a: 1}
+          primaryMaterial: {fileID: 2100000, guid: 4fcf1d03367d95d4bb1cebd193a35157, type: 2}
+          secondaryMaterial: {fileID: 2100000, guid: 4fcf1d03367d95d4bb1cebd193a35157, type: 2}
+        bulletSpeed: 150
+        bulletSpeedOffset: 5
+        bulletLifetime: 6
+        bulletLifetimeOffset: 1
+        bulletSpread: 5
+        bulletSize: 2
+        bulletAmount: 1
+        bulletPierces: 0

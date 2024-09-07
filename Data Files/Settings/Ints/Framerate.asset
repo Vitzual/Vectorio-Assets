@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5df624aacc0469459d544d149c6dfff, type: 3}
+  m_Name: Framerate
+  m_EditorClassIdentifier: 
+  id: setting_framerate
+  name: Framerate
+  usePrefix: 1
+  prefix: setting_
+  description: 
+  useShortDesc: 0
+  shortDesc: 
+  category: 2
+  sortingOrder: 3
+  useHeader: 0
+  headerText: 
+  options:
+  - optionText: Unlimited
+    optionValue: 0
+  - optionText: 240 fps
+    optionValue: 240
+  - optionText: 165 fps
+    optionValue: 165
+  - optionText: 144 fps
+    optionValue: 144
+  - optionText: 120 fps
+    optionValue: 120
+  - optionText: 90 fps
+    optionValue: 90
+  - optionText: 60 fps
+    optionValue: 60
+  - optionText: 30 fps
+    optionValue: 30
+  defaultIndex: 0

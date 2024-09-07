@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  id: tech_gold
+  name: Gold
+  usePrefix: 1
+  prefix: tech_
+  description: Basic resource used mainly for building costs and early-game research.
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  preview: {fileID: 2800000, guid: b3b137a9e05ba3b4289b1651dbba6734, type: 3}
+  reward: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+  rewardType: 2
+  costs: []
+  tutorial: {fileID: 0}
+  encrypted: 0
+  biome: 0
+  feature:
+    featureName: New Spawnable
+    cellsToPick: 0
+    useMinDistance: 0
+    minCellDistance: 0
+    useMaxDistance: 0
+    maxCellDistance: 0
+    hasEntityFeature: 0
+    entityFeature:
+      amountToSpawn: 0
+      data: {fileID: 0}
+      faction: {fileID: 0}
+      variables: []
+    hasResourceFeature: 0
+    resourceFeature:
+      amountToSpawn: 0
+      data: {fileID: 0}
+      useUniqueNodes: 0
+      nodeType: 0
+      nodes: []
+    hasOutpostFeature: 0
+    outpostFeature:
+      amountToSpawn: 0
+      outpost: {fileID: 0}
+    enableAdvancedFeatureSettings: 0
+    linkEntityToResource: 0
+    isEnabled: 1
+  input: {fileID: 0}
+  output: {fileID: 0}

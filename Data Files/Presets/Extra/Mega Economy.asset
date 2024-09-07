@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5517ee4da02f64abec1426b95df784, type: 3}
+  m_Name: Mega Economy
+  m_EditorClassIdentifier: 
+  id: preset_mega_economy
+  name: Mega Economy
+  usePrefix: 1
+  prefix: preset_
+  description: Watch that money flow
+  useShortDesc: 1
+  shortDesc: 
+  icon: {fileID: 21300000, guid: ca1bb10c1b7f2774db84235e43114f97, type: 3}
+  glowColor: {r: 0.4115036, g: 0.8018868, b: 0.40472588, a: 1}
+  backgroundColor: {r: 0.10980392, g: 0.3137255, b: 0.10980392, a: 1}
+  sortingOrder: 7
+  allyModifiers:
+  - stat: 20
+    value: 4
+  - stat: 21
+    value: 3
+  - stat: 22
+    value: 2
+  - stat: 23
+    value: 4
+  - stat: 24
+    value: 3
+  - stat: 25
+    value: 4
+  - stat: 26
+    value: 3
+  - stat: 27
+    value: 2
+  - stat: 28
+    value: 4
+  - stat: 30
+    value: 4
+  - stat: 31
+    value: 3
+  - stat: 33
+    value: 4
+  - stat: 32
+    value: 4
+  - stat: 1
+    value: 2
+  enemyModifiers:
+  - stat: 19
+    value: 2

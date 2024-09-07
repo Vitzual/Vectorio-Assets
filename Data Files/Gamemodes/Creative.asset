@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7757b8578b792c4389d9fb18a6e94df, type: 3}
+  m_Name: Creative
+  m_EditorClassIdentifier: 
+  id: gamemode_creative
+  name: Creative
+  usePrefix: 1
+  prefix: gamemode_
+  description: The main gamemode
+  defaultRegion: {fileID: 11400000, guid: d16490bae1fe5484490f0bce10429898, type: 2}
+  researchTrees:
+  - {fileID: 11400000, guid: 57be9cec69376e44c9cc22bff75bdb0c, type: 2}
+  - {fileID: 11400000, guid: 556d2df462818134893a10a730901e0f, type: 2}
+  - {fileID: 11400000, guid: 6d21f976dea8f174a898a6df16296e99, type: 2}
+  gamemodeRules: 6286
+  defaultOptions: 0

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Dark Hive Cell
+  m_EditorClassIdentifier: 
+  id: vec_dark_hive_cell
+  name: Dark Hive Cell
+  usePrefix: 1
+  prefix: vec_
+  description: A satellite hive cell that spawns units when damaged.
+  components:
+  - rid: 7743134915502800899
+  - rid: 7743134915502800900
+  preview: {fileID: 2800000, guid: f53dd770b0ebf8b4696c9a7732fe7b7f, type: 2}
+  category: 9
+  inventoryIndex: -1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 9c5d218dce776ff468d5312ad14789d9, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.34891412, g: 0.018022425, b: 0.764151, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: fe5f64508981de6428d14df117cc47bb, type: 3}
+      material: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 0
+  normalCost:
+    resource: {fileID: 0}
+    amount: 0
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7743134915502800899
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 250
+    - rid: 7743134915502800900
+      type: {class: HiveData, ns: , asm: Assembly-CSharp}
+      data:
+        isCoreCell: 0
+        markerIcon: {fileID: 0}
+        cells:
+        - hiveData: {fileID: 0}
+          position: {x: 0, y: 0}
+        damageThreshold: 10
+        spawnRange: 50
+        colliderSize: 2.5
+        spawns:
+        - {fileID: 11400000, guid: 4b29377c8bda72545a88b364dd724d0a, type: 2}
+        - {fileID: 11400000, guid: ba3b32c757fc392479ea6a40d281532d, type: 2}
+        - {fileID: 11400000, guid: 7e01978729b25644ba6051171a7147ef, type: 2}

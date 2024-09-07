@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Manufacturer
+  m_EditorClassIdentifier: 
+  id: vec_manufacturer
+  name: Manufacturer
+  usePrefix: 1
+  prefix: vec_
+  description: A more advanced crafting machine capable of crafting some basic Tier
+    3 resources.
+  useShortDesc: 1
+  shortDesc: Creates tier 3 resources
+  components:
+  - rid: 8881817816770281484
+  - rid: 8881817816770281482
+  - rid: 8881817816770281485
+  preview: {fileID: 2800000, guid: 2625afcaab36bef41a7259d6f531f1b4, type: 2}
+  category: 2
+  inventoryIndex: 6
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: b239b9f3c81e2a84ebe0a221cad0ca24, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 8ad10973eb483ff4ea504a7b837e9435, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.020469915, g: 0.8679245, b: 0.8587131, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 150e457e63ef69143baf1a966eead4d7, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 21300000, guid: 6a438308525c3d048b5fa7ba33931725, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 9f35aaa983f8c074f808309eba4903f8, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.15917587, g: 0.6886792, b: 0.6829238, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 21300000, guid: 9e28d274ddac6b84eb9db4c9d880f4f4, type: 3}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: edc83221d532bbd449524701978555fe, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: e7b73b11f8bab96408b195fd578ba626, type: 2}
+    amount: 150
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: d36b0ee85632b7b418be8f6871b95ef5, type: 2}
+    amount: 25
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817816770281482
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 3
+        height: 3
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817816770281484
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 35
+        type: 1
+    - rid: 8881817816770281485
+      type: {class: CrafterData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 10
+        useIndicator: 1
+        indicatorPosition: {x: 2.75, y: 2.75}
+        recipes:
+        - {fileID: 11400000, guid: 8fa7d207bb6c84c43942521513085d27, type: 2}
+        - {fileID: 11400000, guid: c31cdf065bcbca447a2af3ad554ae1d1, type: 2}
+        - {fileID: 11400000, guid: 56dcef317af51a84485d0ddb3ee00f82, type: 2}

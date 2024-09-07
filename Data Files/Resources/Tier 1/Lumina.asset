@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Lumina
+  m_EditorClassIdentifier: 
+  id: resource_lumina
+  name: Lumina
+  usePrefix: 1
+  prefix: resource_
+  description: Highly-energetic resource used mainly for making refined fuel.
+  tile: {fileID: 11400000, guid: 15226b07ee986e94db0e7cc880ed4223, type: 2}
+  iconSprite: {fileID: 21300000, guid: ebc5cd09197a5be408172ca2f2d9315e, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 0.4575472, g: 0.73175675, b: 1, a: 1}
+    secondaryColor: {r: 0.11801351, g: 0.30707002, b: 0.49056602, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: eaabc464ffba86d4988ac0fe1be80b4a, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: eaabc464ffba86d4988ac0fe1be80b4a, type: 2}
+  tier: 1
+  postfix: 
+  order: 4
+  power: 12
+  burnTime: 5
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

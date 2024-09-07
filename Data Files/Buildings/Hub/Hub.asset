@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Hub
+  m_EditorClassIdentifier: 
+  id: vec_hub
+  name: Hub
+  usePrefix: 1
+  prefix: vec_
+  description: The heart and soul of your base. Outputs a small amount of power to
+    kickstart your base.
+  components:
+  - rid: 8881817816770281499
+  - rid: 8881817816770281498
+  - rid: 8881817909168701440
+  preview: {fileID: 2800000, guid: a8e69ec6b18caca4d972e581726520cc, type: 2}
+  category: 0
+  inventoryIndex: -1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: fa7070699269ff0479a4c6a3a90b7ef2, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.1745283, g: 0.5451705, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 9140e9851421fb14188c7867d0c5a59b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.5990566, g: 0.7785265, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: d7c7cfead94ff85488a9b3aa25a8fa71, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 5
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 2f90e3f39b4332b4f9898d8d2de08f17, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 0.9386792, b: 0.9386792, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 6
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 78a9432458f4d8f46b340f9c5c2c614e, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 7
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 5da7f8759153e2747ace4c1e002890ac, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 8
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a2151dc5d7596e04180bbc10690537e2, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.42745098, g: 0.6392157, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 9
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 0
+  normalCost:
+    resource: {fileID: 0}
+    amount: 0
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817816770281498
+      type: {class: HubData, ns: , asm: Assembly-CSharp}
+      data:
+        spawnables:
+        - data: {fileID: 11400000, guid: 393d47a4825729f43b0c7f58e39852a2, type: 2}
+          modelID: default
+          position: {x: -5, y: 5}
+        - data: {fileID: 11400000, guid: 393d47a4825729f43b0c7f58e39852a2, type: 2}
+          modelID: default
+          position: {x: 5, y: 5}
+        - data: {fileID: 11400000, guid: 393d47a4825729f43b0c7f58e39852a2, type: 2}
+          modelID: default
+          position: {x: 5, y: -5}
+        - data: {fileID: 11400000, guid: 393d47a4825729f43b0c7f58e39852a2, type: 2}
+          modelID: default
+          position: {x: -5, y: -5}
+        - data: {fileID: 11400000, guid: b13c54adcd3e9f847a90aec79f38656c, type: 2}
+          modelID: default
+          position: {x: 0, y: 5}
+        - data: {fileID: 11400000, guid: b13c54adcd3e9f847a90aec79f38656c, type: 2}
+          modelID: default
+          position: {x: 5, y: 0}
+        - data: {fileID: 11400000, guid: b13c54adcd3e9f847a90aec79f38656c, type: 2}
+          modelID: default
+          position: {x: 0, y: -5}
+        - data: {fileID: 11400000, guid: b13c54adcd3e9f847a90aec79f38656c, type: 2}
+          modelID: default
+          position: {x: -5, y: 0}
+        startingPower: 500
+        effect: {fileID: 5759883851503081464, guid: c627ae2db1250a24e891d0f79cd021b2, type: 3}
+    - rid: 8881817816770281499
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+    - rid: 8881817909168701440
+      type: {class: ClaimerData, ns: , asm: Assembly-CSharp}
+      data:
+        range: 16

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Arcanium Battery
+  m_EditorClassIdentifier: 
+  id: resource_mystical_essence
+  name: Arcanium Battery
+  usePrefix: 1
+  prefix: resource_
+  description: Liquid lumina contained inside an arcanium steel shell. Allows for
+    refined usage of the lumina.
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: c94da305edce52c4399f7a37e3f979f0, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 0.88763326, g: 0.4575472, b: 1, a: 1}
+    secondaryColor: {r: 0.4894619, g: 0.05980776, b: 0.6037736, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 98db98d8a6a07b240b95f6b60a99a2a2, type: 2}
+  tier: 3
+  postfix: 
+  order: 202
+  power: 25
+  burnTime: 60
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

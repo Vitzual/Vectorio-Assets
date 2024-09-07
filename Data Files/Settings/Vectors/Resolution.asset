@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0db4cf54f77764e8d8b08e3e271017, type: 3}
+  m_Name: Resolution
+  m_EditorClassIdentifier: 
+  id: setting_resolution
+  name: Resolution
+  usePrefix: 1
+  prefix: setting_
+  description: 
+  useShortDesc: 0
+  shortDesc: 
+  category: 2
+  sortingOrder: 1
+  useHeader: 0
+  headerText: 
+  options:
+  - optionText: 1280x720
+    optionValueX: 1280
+    optionValueY: 720
+  - optionText: 1366x768
+    optionValueX: 1366
+    optionValueY: 768
+  - optionText: 1600x900
+    optionValueX: 1600
+    optionValueY: 900
+  - optionText: 1920x1080
+    optionValueX: 1920
+    optionValueY: 1080
+  - optionText: 1920x1200
+    optionValueX: 1920
+    optionValueY: 1200
+  - optionText: 2048x1080
+    optionValueX: 2048
+    optionValueY: 1080
+  - optionText: 2560x1080
+    optionValueX: 2560
+    optionValueY: 1080
+  - optionText: 2560x1440
+    optionValueX: 2560
+    optionValueY: 1440
+  - optionText: 2560x1600
+    optionValueX: 2560
+    optionValueY: 1600
+  - optionText: 3440x1440
+    optionValueX: 3440
+    optionValueY: 1440
+  - optionText: 3840x1600
+    optionValueX: 3840
+    optionValueY: 1600
+  - optionText: 3840x2160
+    optionValueX: 3840
+    optionValueY: 2160
+  - optionText: 4096x2160
+    optionValueX: 4096
+    optionValueY: 2160
+  - optionText: 5120x1440
+    optionValueX: 5120
+    optionValueY: 1440
+  defaultIndex: 3

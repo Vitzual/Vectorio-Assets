@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Phantom Core
+  m_EditorClassIdentifier: 
+  id: resource_phantom_core
+  name: Phantom Core
+  usePrefix: 1
+  prefix: resource_
+  description: Extracts a phantom soul from the reactive cellite, and contains it
+    in a glimmering arcanite core.
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 5a65ea5b79fdea448918b8f6b936c5c2, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 0.71130127, g: 0.27843142, b: 1, a: 1}
+    secondaryColor: {r: 0.3638524, g: 0.1372549, b: 0.5764706, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 1958d44791b9c8c4cbc441377ccb46a2, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 1958d44791b9c8c4cbc441377ccb46a2, type: 2}
+  tier: 3
+  postfix: 
+  order: 301
+  power: 50
+  burnTime: 60
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

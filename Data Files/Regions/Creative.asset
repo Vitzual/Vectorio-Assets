@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd617178b4345b8429d285b28617040b, type: 3}
+  m_Name: Creative
+  m_EditorClassIdentifier: 
+  id: region_creative
+  name: Creative
+  usePrefix: 1
+  prefix: region_
+  description: The creative test region. Nothing to be found here but endless opportunities!
+  useShortDesc: 1
+  shortDesc: 
+  goalText: Have fun!
+  goalType: 0
+  goalVariable: 
+  playerFaction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+  enemyFaction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+  xSpawnPosition: 250
+  ySpawnPosition: 250
+  tile: {fileID: 11400000, guid: 658e2ef4240781548a6a39552b37332c, type: 2}
+  hub: {fileID: 0}
+  isBeta: 0
+  regionTrack: {fileID: 8300000, guid: 42d6f6941e709604daf9aa4f7ef492ee, type: 3}
+  defaultTechs: []
+  ensureRegionTechs: []
+  useFreeEntities: 0
+  freeEntities: []
+  useFogOfWar: 0
+  fogTexture: {fileID: 0}
+  textureTiling: {x: 0, y: 0}
+  fogColor: {r: 0, g: 0, b: 0, a: 0}
+  totalHashCells: 0
+  worldSize: 500
+  cellSize: 25
+  defaultBiome:
+    _noiseTexture: {fileID: 0}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    biomeSize: 0
+    minSpawnDistance: 0
+    maxSpawnDistance: 0
+    threshold: 0.5
+    direction: 0
+    features: []
+    noiseType: 0
+    biomeCeiling: 0.8
+    biomeFloor: 0.2
+    biomeCoverage: 0.5
+    fadeLength: 0
+    maxOffset: 10
+    noiseSize: 0
+    noiseScale: 0
+    octaves: 3
+    persistence: 0.5
+    lacunarity: 10
+    useAdvancedFalloff: 0
+    falloffCurve: 4
+    falloffScale: 25
+    falloffOctaves: 2
+    falloffPersistence: 0.5
+    falloffLacunarity: 10
+    falloffMixFactor: 0.5
+  biomes: []
+  tileHexColor: {r: 0.16967782, g: 0.30143115, b: 0.38679248, a: 1}
+  claimedHexColor: {r: 0.23251157, g: 0.40432534, b: 0.5188679, a: 1}
+  minimapBorderText: CREATIVE
+  minimapBorderColor: {r: 0.14509805, g: 0.59607846, b: 0.8862745, a: 1}
+  minimaptitleColor: {r: 0.14509805, g: 0.59607846, b: 0.8862745, a: 1}
+  borderFillColor: {r: 0, g: 0.2853885, b: 0.47058824, a: 1}
+  borderMaterial: {fileID: 2100000, guid: 6cf64d1fec71c44449aac16f201ac4f7, type: 2}
+  backdropColor: {r: 0, g: 0, b: 0, a: 0}
+  backdropSprite: {fileID: 0}
+  backdropMaterial: {fileID: 0}
+  enemies: []
+  guardian:
+    data: {fileID: 0}
+    factionID: 
+    points: []

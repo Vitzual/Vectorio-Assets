@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Hammerhead
+  m_EditorClassIdentifier: 
+  id: vec_hammerhead
+  name: Hammerhead
+  usePrefix: 1
+  prefix: vec_
+  description: A strong bulky unit that always priotizes walls.
+  useShortDesc: 1
+  shortDesc: 
+  components:
+  - rid: 8881817876394672131
+  - rid: 8881817876394672133
+  preview: {fileID: 2800000, guid: 27d80c1ea7017ea4992afd1e1af26f5e, type: 2}
+  category: 5
+  inventoryIndex: 3
+  sortingLayer: unit
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 411a0310773462a4692979a890dd866b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.7830189, g: 0, b: 0, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1.5
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 82c9d142f8079a044b34ae34dcc2c4fa, type: 3}
+      material: {fileID: 2100000, guid: 31713853b8896444db805dcabffcb371, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1.5
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 3de50de76fa73b54eb165ea1e4af9911, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.6981132, g: 0, b: 0, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1.5
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 7779f7b8236634a4c9a0ead251b4399c, type: 3}
+      material: {fileID: 2100000, guid: 31713853b8896444db805dcabffcb371, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1.5
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 0
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 0
+  normalCost:
+    resource: {fileID: 0}
+    amount: 0
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817876394672131
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 25
+        type: 14
+    - rid: 8881817876394672133
+      type: {class: UnitData, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 60
+        moveSpeed: 14
+        rotateSpeed: 120
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+        useAdvancedSettings: 1
+        range: 10
+        colliderSize: 3.5
+        physicalMass: 5
+        physicalDrag: 1
+        knockbackValue: 1500
+        minimapIcon: {fileID: 0}
+        minimapIconSize: 1

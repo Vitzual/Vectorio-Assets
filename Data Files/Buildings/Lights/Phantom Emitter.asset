@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Phantom Emitter
+  m_EditorClassIdentifier: 
+  id: vec_phantom_emitter
+  name: Phantom Emitter
+  usePrefix: 1
+  prefix: vec_
+  description: 
+  components:
+  - rid: 2834078558030659584
+  preview: {fileID: 2800000, guid: 0c1bd35b391571c4b8c39075fb518085, type: 2}
+  category: 9
+  inventoryIndex: -1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: d2d30f2e1d3437648a3caaaf2cee5226, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 20
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a6b90f4d4524bcd49bb5d93124ea3353, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.52827096, g: 0.3254717, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 21
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 20fef47b5f2092d4ca1da783eb5fef30, type: 3}
+      material: {fileID: 2100000, guid: b6c5dedfbc2b21042a254ca4d81efb78, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 22
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: a35f3466a05e3fa45bf7f7e6cf8787b0, type: 2}
+    amount: 50
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078558030659584
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []

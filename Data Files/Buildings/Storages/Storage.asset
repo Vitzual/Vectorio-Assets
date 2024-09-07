@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Storage
+  m_EditorClassIdentifier: 
+  id: vec_storage
+  name: Storage
+  usePrefix: 1
+  prefix: vec_
+  description: Holds collected resources, making them available in the global storage
+    counter.
+  useShortDesc: 1
+  shortDesc: Stores up to 50 of any resource
+  components:
+  - rid: 8881817862755319808
+  - rid: 8881817862755319809
+  - rid: 8881817862755319810
+  preview: {fileID: 2800000, guid: 47b3761591628694b89267a39528bb70, type: 2}
+  category: 2
+  inventoryIndex: 1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 09235d315e9df084f93448ee687d0b0f, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.3254717, g: 0.5793233, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 7403ced535d51a343a9243d8503c6eac, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 97c55be1f9fbfa74588714130c8ac3e8, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+    amount: 25
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 11400000, guid: d36b0ee85632b7b418be8f6871b95ef5, type: 2}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817862755319808
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817862755319809
+      type: {class: StorageData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 50
+        useIndicator: 1
+        indicatorPosition: {x: 1.5, y: 1.5}
+        globalStorage: 1
+    - rid: 8881817862755319810
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 10
+        type: 1

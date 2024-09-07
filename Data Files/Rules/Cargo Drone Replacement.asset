@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d800594d05f48cf45a729b3da1ae5559, type: 3}
+  m_Name: Cargo Drone Replacement
+  m_EditorClassIdentifier: 
+  id: rule_cargo_drone_replacement
+  name: Cargo Drone Replacement
+  usePrefix: 1
+  prefix: rule_
+  description: This rule allows cargo ports to replace pre-existing cargo ports.
+    For the rule to pass, the entity must match one of the pre-determined data references.
+  useShortDesc: 1
+  shortDesc: 
+  rules: 2
+  entities:
+  - {fileID: 11400000, guid: a10e86fa9b13e424ea224312f5ebd91b, type: 2}
+  - {fileID: 11400000, guid: c21a9353cc6e9a0448a8666ec402b7bb, type: 2}
+  types: []
+  matchEveryType: 0
+  layer: 0

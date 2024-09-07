@@ -1,0 +1,1794 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd617178b4345b8429d285b28617040b, type: 3}
+  m_Name: The Abyss
+  m_EditorClassIdentifier: 
+  id: region_the_abyss
+  name: The Abyss
+  usePrefix: 1
+  prefix: region_
+  description: The starting region. Weak enemies and basic resources can be found
+    here, a great place to start any ambitious adventure!
+  useShortDesc: 1
+  shortDesc: 
+  goalText: Build the Regional Gateway
+  goalType: 1
+  goalVariable: vec_regional_gateway
+  playerFaction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+  enemyFaction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+  xSpawnPosition: 240
+  ySpawnPosition: 240
+  tile: {fileID: 11400000, guid: 658e2ef4240781548a6a39552b37332c, type: 2}
+  hub: {fileID: 11400000, guid: 6b21b027c58d632489a1f989e0bd8bbb, type: 2}
+  isBeta: 0
+  regionTrack: {fileID: 8300000, guid: cc04ffbcafd5b9b499ffa8503fc00099, type: 3}
+  defaultTechs:
+  - {fileID: 11400000, guid: a68a4975fd2dff74781180703ac0ba59, type: 2}
+  - {fileID: 11400000, guid: 09091e5574d2a474480999c5f0cdd0bc, type: 2}
+  - {fileID: 11400000, guid: 74e40a45eb3b1c140a8b75665f3da90e, type: 2}
+  - {fileID: 11400000, guid: c5520eae3a876464fbe6c46d828cb8cd, type: 2}
+  - {fileID: 11400000, guid: 5478dc952f10625408560961eb1ea8d4, type: 2}
+  - {fileID: 11400000, guid: c2fe3162bd6bfe04f9fa6eba2a70a7bd, type: 2}
+  - {fileID: 11400000, guid: 402b9eb7f17c5a045b3a16e074be1c69, type: 2}
+  - {fileID: 11400000, guid: 74229e57bc10105488715592fbd15247, type: 2}
+  ensureRegionTechs: []
+  useFreeEntities: 1
+  freeEntities:
+  - {fileID: 11400000, guid: 19a7fa475c692e544b46ca080bfa1dc4, type: 2}
+  - {fileID: 11400000, guid: 4c0b62eeaf5af4340af4a7892942199c, type: 2}
+  - {fileID: 11400000, guid: a10e86fa9b13e424ea224312f5ebd91b, type: 2}
+  - {fileID: 11400000, guid: ffa5a309455c16b41a819714512a5c59, type: 2}
+  useFogOfWar: 0
+  fogTexture: {fileID: 0}
+  textureTiling: {x: 0, y: 0}
+  fogColor: {r: 0, g: 0, b: 0, a: 0}
+  totalHashCells: 900
+  worldSize: 480
+  cellSize: 16
+  defaultBiome:
+    _noiseTexture: {fileID: 0}
+    color: {r: 0.6226415, g: 0.37887147, b: 0.37887147, a: 1}
+    biomeSize: 480
+    minSpawnDistance: 0
+    maxSpawnDistance: 0
+    threshold: 0.5
+    direction: 0
+    features:
+    - featureName: Starting Gold
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 0
+      useMaxDistance: 1
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 6
+        maxDistance: 8
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Close Outpost
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 3
+      useMaxDistance: 1
+      maxCellDistance: 4
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: e43d93ba9d336ad48b8e2e2faede5439, type: 3}
+        - {fileID: 4900000, guid: f013b338985791440b46c5382c3ccdd2, type: 3}
+        - {fileID: 4900000, guid: ef2359b7f4c4d3944ab677ba84b792db, type: 3}
+        - {fileID: 4900000, guid: 7f96aec272c4e05459522dbe7eec2552, type: 3}
+        - {fileID: 4900000, guid: a846db0278716064d8af404317bcb30a, type: 3}
+        - {fileID: 4900000, guid: 1a990e0036840064383746c4413b3216, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Close Outpost
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 5
+      useMaxDistance: 1
+      maxCellDistance: 6
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: e43d93ba9d336ad48b8e2e2faede5439, type: 3}
+        - {fileID: 4900000, guid: f013b338985791440b46c5382c3ccdd2, type: 3}
+        - {fileID: 4900000, guid: ef2359b7f4c4d3944ab677ba84b792db, type: 3}
+        - {fileID: 4900000, guid: 7f96aec272c4e05459522dbe7eec2552, type: 3}
+        - {fileID: 4900000, guid: a846db0278716064d8af404317bcb30a, type: 3}
+        - {fileID: 4900000, guid: 1a990e0036840064383746c4413b3216, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Mid Outposts
+      cellsToPick: 2
+      useMinDistance: 1
+      minCellDistance: 7
+      useMaxDistance: 1
+      maxCellDistance: 8
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: e43d93ba9d336ad48b8e2e2faede5439, type: 3}
+        - {fileID: 4900000, guid: f013b338985791440b46c5382c3ccdd2, type: 3}
+        - {fileID: 4900000, guid: ef2359b7f4c4d3944ab677ba84b792db, type: 3}
+        - {fileID: 4900000, guid: 7f96aec272c4e05459522dbe7eec2552, type: 3}
+        - {fileID: 4900000, guid: a846db0278716064d8af404317bcb30a, type: 3}
+        - {fileID: 4900000, guid: 1a990e0036840064383746c4413b3216, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Random Outposts
+      cellsToPick: 10
+      useMinDistance: 1
+      minCellDistance: 8
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: 3d694755ce7c9a24288d3ac64def655a, type: 3}
+        - {fileID: 4900000, guid: 4ef979160b829f148895b30a0289c71f, type: 3}
+        - {fileID: 4900000, guid: a846db0278716064d8af404317bcb30a, type: 3}
+        - {fileID: 4900000, guid: 7f96aec272c4e05459522dbe7eec2552, type: 3}
+        - {fileID: 4900000, guid: 2a1ef57a0b9857f49b1fd8cf5203ed60, type: 3}
+        - {fileID: 4900000, guid: e43d93ba9d336ad48b8e2e2faede5439, type: 3}
+        - {fileID: 4900000, guid: 5cf476bd992af114b87a5ca798ae8271, type: 3}
+        - {fileID: 4900000, guid: 1a990e0036840064383746c4413b3216, type: 3}
+        - {fileID: 4900000, guid: ef2359b7f4c4d3944ab677ba84b792db, type: 3}
+        - {fileID: 4900000, guid: f013b338985791440b46c5382c3ccdd2, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Foundry Decryptor
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 2
+      useMaxDistance: 1
+      maxCellDistance: 2
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_foundry
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Liquidator Decryptor
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 3
+      useMaxDistance: 1
+      maxCellDistance: 3
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_liquidator
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Sweeper Decryptor
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 4
+      useMaxDistance: 1
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_sweeper
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Redeemer Decryptor
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_redeemer
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Manufacturer Decryptor
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_manufacturer
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Nearby Hive
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 3
+      useMaxDistance: 1
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 2
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: afdc521ca34a066499edca2e585409d9, type: 2}
+        faction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 2
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 6f28b1f87afc11e4c801b6143527b064, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 1
+      isEnabled: 1
+    - featureName: Hive Spawns
+      cellsToPick: 14
+      useMinDistance: 1
+      minCellDistance: 5
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 6
+        data: {fileID: 11400000, guid: afdc521ca34a066499edca2e585409d9, type: 2}
+        faction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 6
+        data: {fileID: 11400000, guid: 6f28b1f87afc11e4c801b6143527b064, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 1
+      isEnabled: 1
+    - featureName: Hive Spawns
+      cellsToPick: 5
+      useMinDistance: 1
+      minCellDistance: 5
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 6
+        data: {fileID: 11400000, guid: afdc521ca34a066499edca2e585409d9, type: 2}
+        faction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 2
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 6f28b1f87afc11e4c801b6143527b064, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 1
+      isEnabled: 1
+    - featureName: Close Gold
+      cellsToPick: 2
+      useMinDistance: 1
+      minCellDistance: 2
+      useMaxDistance: 1
+      maxCellDistance: 2
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Close Crystallite
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 2
+      useMaxDistance: 1
+      maxCellDistance: 2
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Close Essence
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 4
+      useMaxDistance: 1
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 2
+        data: {fileID: 11400000, guid: 69f9471ba8f5f9c4fb7bff66ad823685, type: 2}
+        useUniqueNodes: 0
+        nodeType: 7
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Essence Spawns
+      cellsToPick: 5
+      useMinDistance: 1
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 3
+        data: {fileID: 11400000, guid: 69f9471ba8f5f9c4fb7bff66ad823685, type: 2}
+        useUniqueNodes: 0
+        nodeType: 7
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Small Gold Nodes
+      cellsToPick: 7
+      useMinDistance: 1
+      minCellDistance: 3
+      useMaxDistance: 1
+      maxCellDistance: 8
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Small Crystallite Nodes
+      cellsToPick: 3
+      useMinDistance: 1
+      minCellDistance: 4
+      useMaxDistance: 1
+      maxCellDistance: 7
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Medium Gold Nodes
+      cellsToPick: 7
+      useMinDistance: 1
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 7
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Medium Crystallite Nodes
+      cellsToPick: 6
+      useMinDistance: 1
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 7
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Iridium Nodes
+      cellsToPick: 9
+      useMinDistance: 1
+      minCellDistance: 8
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Circular Gold Veins
+      cellsToPick: 2
+      useMinDistance: 1
+      minCellDistance: 10
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 3
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 5
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Large Gold Vein
+      cellsToPick: 3
+      useMinDistance: 1
+      minCellDistance: 7
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 3
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 4
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Large Crystallite Veins
+      cellsToPick: 3
+      useMinDistance: 1
+      minCellDistance: 7
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 3
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 4
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Large Iridium Veins
+      cellsToPick: 3
+      useMinDistance: 1
+      minCellDistance: 10
+      useMaxDistance: 0
+      maxCellDistance: 6
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 3
+        data: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+        useUniqueNodes: 0
+        nodeType: 4
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Lumina Nodes
+      cellsToPick: 8
+      useMinDistance: 1
+      minCellDistance: 10
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 6
+        data: {fileID: 11400000, guid: a35f3466a05e3fa45bf7f7e6cf8787b0, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Lumina Veins
+      cellsToPick: 2
+      useMinDistance: 1
+      minCellDistance: 10
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 2
+        data: {fileID: 11400000, guid: a35f3466a05e3fa45bf7f7e6cf8787b0, type: 2}
+        useUniqueNodes: 0
+        nodeType: 7
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Gold Clusters
+      cellsToPick: 5
+      useMinDistance: 1
+      minCellDistance: 5
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 4
+        maxDistance: 8
+        data: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Crystallite Clusters
+      cellsToPick: 4
+      useMinDistance: 1
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 4
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Iridium Clusters
+      cellsToPick: 3
+      useMinDistance: 1
+      minCellDistance: 8
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 4
+        maxDistance: 8
+        data: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    noiseType: 0
+    biomeCeiling: 0.5
+    biomeFloor: 0.4
+    biomeCoverage: 0.5
+    fadeLength: 0
+    maxOffset: 10
+    noiseSize: 240
+    noiseScale: 100
+    octaves: 3
+    persistence: 0.5
+    lacunarity: 10
+    useAdvancedFalloff: 0
+    falloffCurve: 4
+    falloffScale: 25
+    falloffOctaves: 2
+    falloffPersistence: 0.5
+    falloffLacunarity: 10
+    falloffMixFactor: 0.5
+  biomes:
+  - _noiseTexture: {fileID: 0}
+    color: {r: 0.3773585, g: 0.12281951, b: 0.12281951, a: 1}
+    biomeSize: 480
+    minSpawnDistance: 120
+    maxSpawnDistance: 240
+    threshold: 0.5
+    direction: 2
+    features:
+    - featureName: Large Outpost 1
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 10
+      useMaxDistance: 0
+      maxCellDistance: 6
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: 2629e424ffc871748983c4af936f8bd9, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 2
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Large Outpost 2
+      cellsToPick: 1
+      useMinDistance: 1
+      minCellDistance: 8
+      useMaxDistance: 0
+      maxCellDistance: 5
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: 1a03af919e918dc49955f486569e29fb, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Random Outposts
+      cellsToPick: 10
+      useMinDistance: 0
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 1
+      outpostFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 0
+        outposts:
+        - {fileID: 4900000, guid: 3d694755ce7c9a24288d3ac64def655a, type: 3}
+        - {fileID: 4900000, guid: 4ef979160b829f148895b30a0289c71f, type: 3}
+        - {fileID: 4900000, guid: a846db0278716064d8af404317bcb30a, type: 3}
+        - {fileID: 4900000, guid: 7f96aec272c4e05459522dbe7eec2552, type: 3}
+        - {fileID: 4900000, guid: 2a1ef57a0b9857f49b1fd8cf5203ed60, type: 3}
+        - {fileID: 4900000, guid: e43d93ba9d336ad48b8e2e2faede5439, type: 3}
+        - {fileID: 4900000, guid: 5cf476bd992af114b87a5ca798ae8271, type: 3}
+        - {fileID: 4900000, guid: 1a990e0036840064383746c4413b3216, type: 3}
+        - {fileID: 4900000, guid: ef2359b7f4c4d3944ab677ba84b792db, type: 3}
+        - {fileID: 4900000, guid: f013b338985791440b46c5382c3ccdd2, type: 3}
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 1
+      stripRange: 1
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Ammo Forge Decryptor
+      cellsToPick: 1
+      useMinDistance: 0
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_ammo_forge
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Core Assembler Decryptor
+      cellsToPick: 1
+      useMinDistance: 0
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_core_assembler
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Artillery Decryptor
+      cellsToPick: 1
+      useMinDistance: 0
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_artillery
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Striker Decryptor
+      cellsToPick: 1
+      useMinDistance: 0
+      minCellDistance: 4
+      useMaxDistance: 0
+      maxCellDistance: 4
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 631644d22aa477a42aafd77d47146719, type: 2}
+        faction: {fileID: 11400000, guid: ecaaf68bd1fb4cc4ba686cbff4a71e6d, type: 2}
+        variables:
+        - Type: Decryptor
+          stringVariables:
+          - value: tech_striker
+            key: 0
+          intVariables: []
+          floatVariables: []
+          boolVariables: []
+      hasResourceFeature: 0
+      resourceFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        useUniqueNodes: 0
+        nodeType: 0
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Essence Veins
+      cellsToPick: 3
+      useMinDistance: 0
+      minCellDistance: 0
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 4
+        data: {fileID: 11400000, guid: a35f3466a05e3fa45bf7f7e6cf8787b0, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Lumina Veins
+      cellsToPick: 3
+      useMinDistance: 0
+      minCellDistance: 0
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 4
+        data: {fileID: 11400000, guid: a35f3466a05e3fa45bf7f7e6cf8787b0, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Osmium Nodes
+      cellsToPick: 5
+      useMinDistance: 0
+      minCellDistance: 0
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 190e4f62924015a4ea287ec09916ea8b, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Nitrium Nodes
+      cellsToPick: 3
+      useMinDistance: 0
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 0
+        maxDistance: 4
+        data: {fileID: 11400000, guid: 80a4fff40a3aff94fb4b644d8eca4c52, type: 2}
+        useUniqueNodes: 0
+        nodeType: 3
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Crystallite Clusters
+      cellsToPick: 8
+      useMinDistance: 0
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 2
+        maxDistance: 8
+        data: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Iridium Clusters
+      cellsToPick: 8
+      useMinDistance: 0
+      minCellDistance: 6
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 0
+      entityFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        data: {fileID: 0}
+        faction: {fileID: 0}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 3
+        minDistance: 2
+        maxDistance: 8
+        data: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+        useUniqueNodes: 0
+        nodeType: 1
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 0
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 0
+      isEnabled: 1
+    - featureName: Single Hives
+      cellsToPick: 50
+      useMinDistance: 0
+      minCellDistance: 0
+      useMaxDistance: 0
+      maxCellDistance: 0
+      hasEntityFeature: 1
+      entityFeature:
+        amountToSpawn: 1
+        minDistance: 2
+        maxDistance: 6
+        data: {fileID: 11400000, guid: afdc521ca34a066499edca2e585409d9, type: 2}
+        faction: {fileID: 11400000, guid: dfb9d3bcbe962fd47903496b59143b1f, type: 2}
+        variables: []
+      hasResourceFeature: 1
+      resourceFeature:
+        amountToSpawn: 1
+        minDistance: 2
+        maxDistance: 6
+        data: {fileID: 11400000, guid: 6f28b1f87afc11e4c801b6143527b064, type: 2}
+        useUniqueNodes: 0
+        nodeType: 2
+        nodes: []
+      hasOutpostFeature: 0
+      outpostFeature:
+        amountToSpawn: 0
+        minDistance: 0
+        maxDistance: 16
+        outposts: []
+      enableAdvancedFeatureSettings: 1
+      stripNearbyCells: 0
+      stripRange: 0
+      linkEntityToResource: 1
+      isEnabled: 1
+    noiseType: 2
+    biomeCeiling: 1
+    biomeFloor: 0.5
+    biomeCoverage: 0.3
+    fadeLength: 15
+    maxOffset: 35
+    noiseSize: 250
+    noiseScale: 80
+    octaves: 2
+    persistence: 0.5
+    lacunarity: 1
+    useAdvancedFalloff: 0
+    falloffCurve: 1
+    falloffScale: 25
+    falloffOctaves: 1
+    falloffPersistence: 1
+    falloffLacunarity: 10
+    falloffMixFactor: 0.2
+  tileHexColor: {r: 0.5, g: 0.2476415, b: 0.2476415, a: 1}
+  claimedHexColor: {r: 0.3137255, g: 0.3882353, b: 0.5568628, a: 1}
+  minimapBorderText: THE ABYSS
+  minimapBorderColor: {r: 1, g: 0.23137255, b: 0.23137255, a: 1}
+  minimaptitleColor: {r: 0.3679245, g: 0.08156817, b: 0.08156817, a: 1}
+  borderFillColor: {r: 0.4716981, g: 0, b: 0, a: 1}
+  borderMaterial: {fileID: 2100000, guid: 31713853b8896444db805dcabffcb371, type: 2}
+  backdropColor: {r: 1, g: 0, b: 0, a: 0.12941177}
+  backdropSprite: {fileID: 21300000, guid: 677cca399782dea41aedc1d292ecb67d, type: 3}
+  backdropMaterial: {fileID: 2100000, guid: 4956379acbf35a34e84c75f72949d7e4, type: 2}
+  enemies:
+  - unit: {fileID: 11400000, guid: 4b29377c8bda72545a88b364dd724d0a, type: 2}
+    heatLevel: 0
+    baseCooldown: 10
+    reductionInterval: 50
+    reductionMultiplier: 0.2
+    maxCooldown: 1
+  - unit: {fileID: 11400000, guid: ba3b32c757fc392479ea6a40d281532d, type: 2}
+    heatLevel: 150
+    baseCooldown: 10
+    reductionInterval: 100
+    reductionMultiplier: 0.5
+    maxCooldown: 2
+  - unit: {fileID: 11400000, guid: 38be3f2c83cec5c4384a05e3c2d11783, type: 2}
+    heatLevel: 500
+    baseCooldown: 10
+    reductionInterval: 500
+    reductionMultiplier: 1
+    maxCooldown: 3
+  - unit: {fileID: 11400000, guid: 4e585013a4fce0e458ad0b941c557bf2, type: 2}
+    heatLevel: 1500
+    baseCooldown: 15
+    reductionInterval: 250
+    reductionMultiplier: 0.5
+    maxCooldown: 4
+  - unit: {fileID: 11400000, guid: 7af841e8de8e7b44f80adf143db53909, type: 2}
+    heatLevel: 2500
+    baseCooldown: 20
+    reductionInterval: 500
+    reductionMultiplier: 1
+    maxCooldown: 5
+  - unit: {fileID: 11400000, guid: 57b43257b98434d42802225898250022, type: 2}
+    heatLevel: 5000
+    baseCooldown: 30
+    reductionInterval: 500
+    reductionMultiplier: 1
+    maxCooldown: 5
+  guardian:
+    data: {fileID: 0}
+    factionID: faction_redscar
+    points: []

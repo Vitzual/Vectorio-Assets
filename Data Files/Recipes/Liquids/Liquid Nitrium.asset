@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6249b845f58f74e93a7db3e9cb0a17, type: 3}
+  m_Name: Liquid Nitrium
+  m_EditorClassIdentifier: 
+  id: recipe_liquid_nitrium
+  name: Liquid Nitrium
+  usePrefix: 1
+  prefix: recipe_
+  description: Breaks down the material properties of nitrium into a liquid form.
+  outputResource: {fileID: 11400000, guid: 77b9a9d4ca3cba74c9499fcee372e7d7, type: 2}
+  inputResources:
+  - {fileID: 11400000, guid: 80a4fff40a3aff94fb4b644d8eca4c52, type: 2}
+  - {fileID: 11400000, guid: 80a4fff40a3aff94fb4b644d8eca4c52, type: 2}
+  lightColor: '#B866FF'
+  darkColor: '#391A55'
+  time: 8

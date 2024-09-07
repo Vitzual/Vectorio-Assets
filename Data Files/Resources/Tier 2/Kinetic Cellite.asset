@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Kinetic Cellite
+  m_EditorClassIdentifier: 
+  id: resource_kinetic_cellite
+  name: Kinetic Cellite
+  usePrefix: 1
+  prefix: resource_
+  description: A cellite shard infused with osmium. Seems to pulsate with some form
+    of chaotic energy.
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 11400000, guid: 199d4d118aa19b94788b56093a2f3f72, type: 2}
+  iconSprite: {fileID: 21300000, guid: 55751860c84a9724b90db124fa1cbb7e, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 1, g: 0.4575472, b: 0.4575472, a: 1}
+    secondaryColor: {r: 0.33962262, g: 0.09451762, b: 0.09778568, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: ca3cc1fc2b92a5f40af4fa1fd8cea9ad, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: ca3cc1fc2b92a5f40af4fa1fd8cea9ad, type: 2}
+  tier: 2
+  postfix: 
+  order: 104
+  power: 15
+  burnTime: 5
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

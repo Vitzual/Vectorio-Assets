@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Striker
+  m_EditorClassIdentifier: 
+  id: vec_striker
+  name: Striker
+  usePrefix: 1
+  prefix: vec_
+  description: Fires long-range missiles that can deal huge area damage to buildings.
+    Requies ammunition to fire.
+  useShortDesc: 1
+  shortDesc: Fires heat-seeking missiles
+  components:
+  - rid: 8881817862755319815
+  - rid: 8881817862755319814
+  - rid: 2834078374679019520
+  - rid: 8881817862755319818
+  preview: {fileID: 2800000, guid: 77ed431c51595f041ae5bb887dab1477, type: 2}
+  category: 1
+  inventoryIndex: 14
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 4b6e530b3271d144a87bb5f704ea8187, type: 3}
+      material: {fileID: 2100000, guid: 6cf64d1fec71c44449aac16f201ac4f7, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: e3127732694255143897e2666cf3227c, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.2688679, g: 0.6448772, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: ca6e8c78fad748b4baaec73bb5266985, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: cf2be3d737aeb9d48bfa1d510ca96966, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.099368095, g: 0.20529114, b: 0.2735849, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: bc2c4bf0c6d78f04ea0cb0e537d66db5, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 2356603891c81ed45942869791d9e0a8, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 5
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 1
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 393c26dd9020225428493170117437f9, type: 2}
+    amount: 1500
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 80
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078374679019520
+      type: {class: AmmoBinData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 5
+        useIndicator: 1
+        indicatorPosition: {x: 0, y: 0}
+        ammoRequired: {fileID: 11400000, guid: 46280fbd0eba83f4689a69255c424175, type: 2}
+        ammoIconSize: 1
+    - rid: 8881817862755319814
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 2
+        height: 2
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817862755319815
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 120
+        type: 2
+    - rid: 8881817862755319818
+      type: {class: TurretData, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 50
+        cooldown: 2
+        range: 50
+        explosive: 0
+        shootSound: {fileID: 8300000, guid: f45a43ecb37d9d04380df0781ac50d3f, type: 3}
+        recoilAmplitude: 1
+        recoilFrequency: 5
+        rotationSpeed: 40
+        xFirePosition: 0
+        yFirePosition: 2.5
+        allowPredictiveAiming: 1
+        bullet: {fileID: 11400000, guid: b021e872de973c54ca5d6e15379a7409, type: 2}
+        bulletAccent:
+          primaryColor: {r: 0, g: 0.5114999, b: 1, a: 1}
+          secondaryColor: {r: 0, g: 0.5137255, b: 1, a: 1}
+          primaryMaterial: {fileID: 2100000, guid: eaabc464ffba86d4988ac0fe1be80b4a, type: 2}
+          secondaryMaterial: {fileID: 2100000, guid: eaabc464ffba86d4988ac0fe1be80b4a, type: 2}
+        bulletSpeed: 120
+        bulletSpeedOffset: 0
+        bulletLifetime: 8
+        bulletLifetimeOffset: 0
+        bulletSpread: 0
+        bulletSize: 2
+        bulletAmount: 1
+        bulletPierces: 0

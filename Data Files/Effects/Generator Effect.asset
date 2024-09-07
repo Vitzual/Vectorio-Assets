@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965f0b8aa250984a9d991cc2e16e02c, type: 3}
+  m_Name: Generator Effect
+  m_EditorClassIdentifier: 
+  id: generator_effect
+  name: Generator Effect
+  usePrefix: 0
+  prefix: 
+  description: 
+  dataType: 
+  effect: {fileID: 5088043262283143507, guid: c4c128c1b3130c14987668f4f596bc38, type: 3}

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Phantom Lab
+  m_EditorClassIdentifier: 
+  id: vec_phantom_lab
+  name: Phantom Lab
+  usePrefix: 1
+  prefix: vec_
+  description: A far more efficient version of the laboratory built from reanimated
+    shards.
+  useShortDesc: 1
+  shortDesc: Converts resources into science.
+  components:
+  - rid: 8881817860695654407
+  - rid: 8881817860289069057
+  - rid: 8881817860289069056
+  preview: {fileID: 2800000, guid: 9c6b29cee9b301c4dac4e37f8dd2e039, type: 2}
+  category: 7
+  inventoryIndex: 1
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: cafb6ef11df411f4c97ec0f8e5d3ab86, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.5855796, g: 0.36320752, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 43c7bd2920dc8b145ad817b63f568e18, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 870354d72f965d24a8194186c6f91fad, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.58431375, g: 0.35686275, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 7734f51904b2a0540877609828ba8d9c, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 28312db1a0626c74c9f965ebb7bd793f, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 4
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 2a77dc4a03caed64db1b8dc53f15912e, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 5
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 5
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 15
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817860289069056
+      type: {class: LabData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 10
+        useIndicator: 0
+        indicatorPosition: {x: 0, y: 0}
+        cooldown: 0.05
+        value: 1
+        effectData: {fileID: 11400000, guid: 38d19591daa77e2419b9f54f3ed21c2f, type: 2}
+        researchingSound: {fileID: 8300000, guid: d7f63ad768e1d1c4291f5fcc180e0bb5, type: 3}
+    - rid: 8881817860289069057
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 2
+        height: 2
+        requireAnyResource: 0
+        requiredResources: []
+    - rid: 8881817860695654407
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 50

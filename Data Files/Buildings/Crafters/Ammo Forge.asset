@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Ammo Forge
+  m_EditorClassIdentifier: 
+  id: vec_ammo_forge
+  name: Ammo Forge
+  usePrefix: 1
+  prefix: vec_
+  description: Creates different types of ammo for ammo-consuming defenses.
+  useShortDesc: 1
+  shortDesc: Creates ammo for turrets
+  components:
+  - rid: 8881817816770281489
+  - rid: 8881817816770281490
+  - rid: 8881817816770281491
+  preview: {fileID: 2800000, guid: 8ddd8d9aa83702142ac1eb89130ad88f, type: 2}
+  category: 2
+  inventoryIndex: 8
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: f49da659ac4637349930a36bd373b7c4, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 423b5038f86ee7a4db1729a77bfa8132, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.3254717, g: 0.7413728, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 208e96ce65e2fc746986628dbf7853f9, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 1889a66e2bbff724e84fa617daa8df6b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: e7b73b11f8bab96408b195fd578ba626, type: 2}
+    amount: 150
+  useSpecialCost: 1
+  specialCost:
+    resource: {fileID: 11400000, guid: 8a172959715382e4eb6887a75d1fb268, type: 2}
+    amount: 15
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817816770281489
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 50
+        type: 1
+    - rid: 8881817816770281490
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 3
+        height: 3
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817816770281491
+      type: {class: CrafterData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 10
+        useIndicator: 1
+        indicatorPosition: {x: 4, y: 5.85}
+        recipes:
+        - {fileID: 11400000, guid: ef3fcdda6331b734a93aaf41d3231c32, type: 2}
+        - {fileID: 11400000, guid: 826218771960c3a469ef0394423d6abc, type: 2}
+        - {fileID: 11400000, guid: c3227f692fe63684884ffef6f8de2233, type: 2}

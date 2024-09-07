@@ -1,0 +1,1620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8276214722100231484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_shaded_gem
+  name: Shaded Gem
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1512, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -8276214722100231484}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3896116208666499577}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -8276214722100231484}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 1113fa3a281e6ed4e88a941af4018eb0, type: 3}
+  reward: {fileID: 11400000, guid: 4c9dd214f2a76d6478a710374d8874bc, type: 2}
+  rewardType: 3
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 1000
+  - resource: {fileID: 11400000, guid: 190e4f62924015a4ea287ec09916ea8b, type: 2}
+    amount: 1000
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 1000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-7742573246439067848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_scyther
+  name: Scyther
+  usePrefix: 1
+  prefix: tech_
+  description: An orbiting scythe which launches at nearby enemies, dealing huge
+    physical damage and knockback.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: 280}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -7742573246439067848}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 6763751539516724321}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -7742573246439067848}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 9927f35b99b1e104fa52809e025e683a, type: 2}
+  reward: {fileID: 11400000, guid: d83e34aa25647e64081dbf18e71c7d8a, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 2500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 850
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 2500
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 50
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-6326154000360478213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_phantomite
+  name: Phantomite
+  usePrefix: 1
+  prefix: tech_
+  description: A sharp jagged object that seems to have scattered across the map
+    after using the gateway.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -360, y: 8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -6326154000360478213}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 8071240125840341615}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -6326154000360478213}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6763751539516724321}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 321796979074507310}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: f24a09ba6260b92498ab39a145e727fe, type: 3}
+  reward: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 150
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-6316905377237259783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_alcheminium
+  name: Alcheminium
+  usePrefix: 1
+  prefix: tech_
+  description: A slushy liquid that radiates with some form of dark energy.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1960, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -6316905377237259783}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -1784807901262386736}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -6316905377237259783}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5404580376727152749}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: f88fa35053f2bed4db978fcbe01d6051, type: 3}
+  reward: {fileID: 11400000, guid: b05750301f1004f4abec26a80aa17362, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 5200
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1800
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 4500
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 350
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 120
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-5404580376727152749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_alchemator
+  name: Alchemator
+  usePrefix: 1
+  prefix: tech_
+  description: Morphs alcheminium into other resources. Great for regions with limited
+    resources available.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 2408, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -5404580376727152749}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6316905377237259783}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -5404580376727152749}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4345221443335375800}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -2386823860070046549}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 1795969537093251510}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 0a90350762259ef4c9ae3d2c8e91ef5a, type: 2}
+  reward: {fileID: 11400000, guid: 7a4ee9bc982d7324298937165b1649ce, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 6500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 2200
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 5800
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 500
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 180
+  - resource: {fileID: 11400000, guid: b05750301f1004f4abec26a80aa17362, type: 2}
+    amount: 1000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-4280298695416615060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_dark_gold
+  name: Dark Gold
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -840, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -4280298695416615060}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 7319148796491650002}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -4280298695416615060}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2278697597075667755}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 46be0b923874275459e84429b1c23c54, type: 3}
+  reward: {fileID: 11400000, guid: 5408ffe8f10482a4a8a264e1a1a58a1e, type: 2}
+  rewardType: 3
+  costs:
+  - resource: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+    amount: 1000
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 1000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-3896116208666499577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_osmium
+  name: Osmium
+  usePrefix: 1
+  prefix: tech_
+  description: A chemical resource used in the production of more advanced weapons
+    and ammunition.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1032, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -3896116208666499577}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3635718152278173991}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -3896116208666499577}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1784807901262386736}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -8276214722100231484}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 700c817a130e7f94e8223e5713e01475, type: 3}
+  reward: {fileID: 11400000, guid: 190e4f62924015a4ea287ec09916ea8b, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 3200
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1000
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 3000
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 150
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-3635718152278173991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_reanimated_shard
+  name: Reanimated Shard
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -3635718152278173991}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 6763751539516724321}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -3635718152278173991}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3896116208666499577}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 3791077651452715967}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: e1951d73da91e174e9e30c1907afe5a1, type: 3}
+  reward: {fileID: 11400000, guid: 8b0351be8750dba43b0a82e1eba09933, type: 2}
+  rewardType: 3
+  costs:
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1000
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 1000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-2386823860070046549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_iridium
+  name: Iridium
+  usePrefix: 1
+  prefix: tech_
+  description: A metallic resource used heavily in creating turrets. Provides no
+    power.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 2888, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -2386823860070046549}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -5404580376727152749}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -2386823860070046549}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 10699149874231540}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 8476779dd8213f04f8801b385aec7acd, type: 3}
+  reward: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: b05750301f1004f4abec26a80aa17362, type: 2}
+    amount: 10000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &-1784807901262386736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_phantom_lab
+  name: Phantom Lab
+  usePrefix: 1
+  prefix: tech_
+  description: A far more efficient version of the laboratory built from reanimated
+    shards.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1512, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: -1784807901262386736}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3896116208666499577}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -1784807901262386736}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6316905377237259783}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 3959811384753579455}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 9c6b29cee9b301c4dac4e37f8dd2e039, type: 2}
+  reward: {fileID: 11400000, guid: d5b25db462392ba48b608e3facda7a0a, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 4500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1500
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 3800
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 250
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 50
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a91f4d25863b1b14781110730ee7ee07, type: 3}
+  m_Name: Phantom Tech
+  m_EditorClassIdentifier: 
+  id: tree_phantom_tech
+  name: Phantom Tech
+  usePrefix: 1
+  prefix: tree_
+  description: A new source of technology built from the mysterios properties of
+    phantom enemies. (PLACEHOLDER)
+  useShortDesc: 1
+  shortDesc: 
+  nodes:
+  - {fileID: -7742573246439067848}
+  - {fileID: 6763751539516724321}
+  - {fileID: -5404580376727152749}
+  - {fileID: 7319148796491650002}
+  - {fileID: 172647461166135529}
+  - {fileID: 8071240125840341615}
+  - {fileID: 321796979074507310}
+  - {fileID: -1784807901262386736}
+  - {fileID: 3791077651452715967}
+  - {fileID: 2451271295133526535}
+  - {fileID: -6316905377237259783}
+  - {fileID: -3896116208666499577}
+  - {fileID: 10699149874231540}
+  - {fileID: -4280298695416615060}
+  - {fileID: -6326154000360478213}
+  - {fileID: -2386823860070046549}
+  - {fileID: 4345221443335375800}
+  - {fileID: 1965028832715488693}
+  - {fileID: -8276214722100231484}
+  - {fileID: -3635718152278173991}
+  - {fileID: 1795969537093251510}
+  - {fileID: 3959811384753579455}
+  - {fileID: 8202047019294373004}
+  - {fileID: 2278697597075667755}
+  icon: {fileID: 21300000, guid: 0848f1f87b0dda340aa44a24852788ae, type: 3}
+--- !u!114 &10699149874231540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_tesla
+  name: Tesla
+  usePrefix: 1
+  prefix: tech_
+  description: Fires bolts of electricty that chain from enemy to enemy, temporarily
+    stunning them.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 3368, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 10699149874231540}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -2386823860070046549}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 10699149874231540}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1965028832715488693}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 8202047019294373004}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: d61c8134f98b74b4d8749a056d3153a5, type: 2}
+  reward: {fileID: 11400000, guid: 5386939dd25f31b41aeeedf51ba6c4d5, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 12000
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 3500
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 8500
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 1500
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 800
+  - resource: {fileID: 11400000, guid: 248bbebe80fdd6c4ab1b6d97e00ea1bd, type: 2}
+    amount: 50
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &172647461166135529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_illuminator
+  name: Illuminator
+  usePrefix: 1
+  prefix: tech_
+  description: A static light source, which emits a powerful energy capable of greatly
+    cutting back fog around the area.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -1768, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 172647461166135529}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 172647461166135529}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7319148796491650002}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 6334d4e703c0c3348919c832a732108d, type: 2}
+  reward: {fileID: 11400000, guid: 74be4632abd1dfe488f87cbb460ca2b1, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+    amount: 50
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &321796979074507310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_orbitar
+  name: Orbitar
+  usePrefix: 1
+  prefix: tech_
+  description: A long range defense that fires pulsating plasma rounds, which can
+    reveal fog around them.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 321796979074507310}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6326154000360478213}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 321796979074507310}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 64eb8d0169b9ff5408d10cbe5c4cee4c, type: 2}
+  reward: {fileID: 11400000, guid: 77882d8b2f617494398264da36ff10f8, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 1500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 250
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 500
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &1795969537093251510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_alchemized_nitrium
+  name: Alchemized Nitrium
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 2888, y: -600}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 1795969537093251510}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -5404580376727152749}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1795969537093251510}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: ed68e31c3080a7743acb3f44cf852d85, type: 3}
+  reward: {fileID: 11400000, guid: 91847f02dfd199247aad4605a006f11f, type: 2}
+  rewardType: 3
+  costs: []
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &1965028832715488693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_abyss_core
+  name: Abyss Core
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 3928, y: 8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 1965028832715488693}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 10699149874231540}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1965028832715488693}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: c7010bd850faf4345b86653dd4d53e0c, type: 3}
+  reward: {fileID: 11400000, guid: 9aaf49744a0e84e43ba8fb162e18a555, type: 2}
+  rewardType: 3
+  costs:
+  - resource: {fileID: 11400000, guid: c739577976a6e084d93d182cbf5f2ceb, type: 2}
+    amount: 10000
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 2500
+  - resource: {fileID: 11400000, guid: 609392d45f476574da9b7c424fedb929, type: 2}
+    amount: 1000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &2278697597075667755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_dark_builder_port
+  name: Dark Builder Port
+  usePrefix: 1
+  prefix: tech_
+  description: Deploys a minion drone to construct buildings. Alternative to the
+    builder port.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -360, y: -376}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 2278697597075667755}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -4280298695416615060}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 2278697597075667755}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 227323cf40ba2d74aab653cd0cb867b4, type: 2}
+  reward: {fileID: 11400000, guid: f13b60ca248f3884e9beb0d6ea6a729a, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 1500
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 250
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &2451271295133526535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_abyssminite
+  name: Abyssminite
+  usePrefix: 1
+  prefix: tech_
+  description: A sharp jagged object that seems to have scattered across the map
+    after using the gateway.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -360, y: 312}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 2451271295133526535}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 8071240125840341615}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 2451271295133526535}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: fcdf907ff66f75d48899ceed8b4783cb, type: 3}
+  reward: {fileID: 11400000, guid: c739577976a6e084d93d182cbf5f2ceb, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 800
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 250
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &3791077651452715967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_radar
+  name: Radar
+  usePrefix: 1
+  prefix: tech_
+  description: Marks the locations of resources, outposts, and other POI's around
+    it, even when covered by fog.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1032, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 3791077651452715967}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3635718152278173991}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 3791077651452715967}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 54a6737508b3cca4080a78fca283e731, type: 2}
+  reward: {fileID: 11400000, guid: 5301aed528705fe4caabfc49d28882ca, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 3800
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1200
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 3500
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 180
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &3959811384753579455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_energy_wall
+  name: Energy Wall
+  usePrefix: 1
+  prefix: tech_
+  description: A flow of current runs through the wall, electrocuting whatever touches
+    it.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 1960, y: 280}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 3959811384753579455}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -1784807901262386736}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 3959811384753579455}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: f6d8eabbb495fd842a171bb65d749477, type: 2}
+  reward: {fileID: 11400000, guid: 4a2b6d6a73259094f842b267563394b2, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 6000
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 2000
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 5500
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 420
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 160
+  - resource: {fileID: 11400000, guid: b05750301f1004f4abec26a80aa17362, type: 2}
+    amount: 500
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &4345221443335375800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_alchemized_crystallite
+  name: Alchemized Crystallite
+  usePrefix: 1
+  prefix: tech_
+  description: 
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 2888, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 4345221443335375800}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -5404580376727152749}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 4345221443335375800}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 12f8ad17a4d2b054eaf9806457283feb, type: 3}
+  reward: {fileID: 11400000, guid: 9c8d7faa0235f534da319dcadf3b4c52, type: 2}
+  rewardType: 3
+  costs:
+  - resource: {fileID: 11400000, guid: b05750301f1004f4abec26a80aa17362, type: 2}
+    amount: 10000
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &6763751539516724321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_spotter
+  name: Spotter
+  usePrefix: 1
+  prefix: tech_
+  description: Projects a rotating beam of light which can cut through fog at a longer
+    distance.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 6763751539516724321}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6326154000360478213}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 6763751539516724321}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3635718152278173991}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -7742573246439067848}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 36db9280baab788478bbf095a653a3ea, type: 2}
+  reward: {fileID: 11400000, guid: 406558385a1b6074d9700622740006e7, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 1800
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 500
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 1200
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &7319148796491650002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_voidstone
+  name: Voidstone
+  usePrefix: 1
+  prefix: tech_
+  description: 'A jagged stone which appears to suck in the light around it. '
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -1304, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 7319148796491650002}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 172647461166135529}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 7319148796491650002}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8071240125840341615}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: -4280298695416615060}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: c448a3e5f97696549a15e65422b7e6b6, type: 3}
+  reward: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+  rewardType: 2
+  costs:
+  - resource: {fileID: 11400000, guid: d5a59fc9642b40d42a5a0fe77ef68591, type: 2}
+    amount: 250
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &8071240125840341615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_gargoyle
+  name: Gargoyle
+  usePrefix: 1
+  prefix: tech_
+  description: A rapid firing turret which shoots out extremely inaccurate splitting
+    bullets. Great for covering a large area.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: -840, y: -8}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 8071240125840341615}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 7319148796491650002}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 8071240125840341615}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6326154000360478213}
+        reroutePoints: []
+      - fieldName: input
+        node: {fileID: 2451271295133526535}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 1861b91cf6a464d42b1c1faf5940afe8, type: 2}
+  reward: {fileID: 11400000, guid: 4cd7daad6f31bfd41aa8d7807b24d8e3, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 350
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 50
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+--- !u!114 &8202047019294373004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a264bcfa6a458f4c8a5006b9159b77d, type: 3}
+  m_Name: Research Tech Data
+  m_EditorClassIdentifier: 
+  id: tech_atomizer
+  name: Atomizer
+  usePrefix: 1
+  prefix: tech_
+  description: Fires a beam of pure energy which can rip through many enemies at
+    a time.
+  useShortDesc: 1
+  shortDesc: 
+  graph: {fileID: 11400000}
+  position: {x: 3928, y: -296}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 8202047019294373004}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 10699149874231540}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 8202047019294373004}
+      _typeQualifiedName: ResearchTechData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  preview: {fileID: 2800000, guid: 55863f087e9dd364283244a7371b46c3, type: 2}
+  reward: {fileID: 11400000, guid: c6f28bda43110124a8f0af0f59152bbf, type: 2}
+  rewardType: 1
+  costs:
+  - resource: {fileID: 11400000, guid: 05cd08f24cde0b84faed36ec6fc10d95, type: 2}
+    amount: 5000
+  - resource: {fileID: 11400000, guid: ed0b9d7f40ff93640b687b18fdb31d3e, type: 2}
+    amount: 1600
+  - resource: {fileID: 11400000, guid: ba23aea97a0be734fb968402b0f297f2, type: 2}
+    amount: 4000
+  - resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 280
+  - resource: {fileID: 11400000, guid: b9d65417662ef8d4ebd580c9d61e8700, type: 2}
+    amount: 60
+  tutorial: {fileID: 0}
+  tutorialID: 
+  encrypted: 0
+  input: {fileID: 0}
+  output: {fileID: 0}

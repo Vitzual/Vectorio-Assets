@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965f0b8aa250984a9d991cc2e16e02c, type: 3}
+  m_Name: Research Facility Effect
+  m_EditorClassIdentifier: 
+  id: research_facility_effect
+  name: Research Facility Effect
+  usePrefix: 0
+  prefix: 
+  description: 
+  dataType: 
+  effect: {fileID: 5808544146316570253, guid: f09eda9419db75043b681c7a3ad9e44b, type: 3}

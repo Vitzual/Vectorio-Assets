@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Filter
+  m_EditorClassIdentifier: 
+  id: vec_filter
+  name: Filter
+  usePrefix: 1
+  prefix: vec_
+  description: 'A filtering unit which can stop unwanted resources from passing through
+    it. '
+  useShortDesc: 1
+  shortDesc: Filters only a specific resource
+  components:
+  - rid: 8881817862755319810
+  - rid: 8881817862755319808
+  - rid: 2834078571921145857
+  preview: {fileID: 2800000, guid: 7a9c7d3169adb3148acc0a9fb3bcfc98, type: 2}
+  category: 2
+  inventoryIndex: 11
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 1f4801062ad8cf448841a5da4ae3cd18, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.32549024, g: 1, b: 0.3660981, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 54f31b4911d209343bab55fe9280e5a9, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a096e69c613b4b7478dcd594af86f3f5, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  useAdvancedSettings: 0
+  checkType: 0
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 69f9471ba8f5f9c4fb7bff66ad823685, type: 2}
+    amount: 150
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 11400000, guid: d36b0ee85632b7b418be8f6871b95ef5, type: 2}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2834078571921145857
+      type: {class: FilterData, ns: , asm: Assembly-CSharp}
+      data:
+        mode: 0
+        storage: 10
+        useIndicator: 0
+        indicatorPosition: {x: 0, y: 0}
+    - rid: 8881817862755319808
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817862755319810
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 10
+        type: 1

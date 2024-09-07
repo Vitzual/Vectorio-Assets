@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Abyss Fragment
+  m_EditorClassIdentifier: 
+  id: resource_abyss_fragment
+  name: Abyssminite
+  usePrefix: 1
+  prefix: resource_
+  description: A sharp jagged object that seems to have scattered across the map
+    after using the gateway.
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 11400000, guid: fe6eaab132f56db4b8619b197f91f29b, type: 2}
+  iconSprite: {fileID: 21300000, guid: fcdf907ff66f75d48899ceed8b4783cb, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 1, g: 0.15686274, b: 0.15686274, a: 1}
+    secondaryColor: {r: 0.47058824, g: 0, b: 0.016713087, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 31713853b8896444db805dcabffcb371, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 31713853b8896444db805dcabffcb371, type: 2}
+  tier: 1
+  postfix: 
+  order: 9
+  power: 1
+  burnTime: 1
+  canBeStoredGlobally: 1
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6249b845f58f74e93a7db3e9cb0a17, type: 3}
+  m_Name: Glimmering Gem
+  m_EditorClassIdentifier: 
+  id: recipe_glimmering_gem
+  name: Glimmering Gem
+  usePrefix: 1
+  prefix: recipe_
+  description: 
+  outputResource: {fileID: 11400000, guid: 91097d41f1931ac4bade0293be2aadbd, type: 2}
+  inputResources:
+  - {fileID: 11400000, guid: 73227b22da5a5bf45817119e8dd977ab, type: 2}
+  - {fileID: 11400000, guid: 95726b5f889cb8442816398ff01218aa, type: 2}
+  time: 8

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965f0b8aa250984a9d991cc2e16e02c, type: 3}
+  m_Name: Laboratory
+  m_EditorClassIdentifier: 
+  id: effect_laboratory
+  name: Laboratory
+  usePrefix: 1
+  prefix: effect_
+  description: 
+  effect: {fileID: 1658344079815152102, guid: d399c5e5e58face4bbe553888f92c3ec, type: 3}

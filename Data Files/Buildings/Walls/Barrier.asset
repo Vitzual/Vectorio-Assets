@@ -1,0 +1,514 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Barrier
+  m_EditorClassIdentifier: 
+  id: vec_barrier
+  name: Barrier
+  usePrefix: 1
+  prefix: vec_
+  description: Stronger version of the base wall that can absorb more damage.
+  useShortDesc: 1
+  shortDesc: Blocks incoming enemy units
+  components:
+  - rid: 8881817876394672129
+  - rid: 8881817876394672128
+  - rid: 8881817876394672130
+  preview: {fileID: 2800000, guid: d9c8ff381a735d64fa7b4c2da00cbfc8, type: 2}
+  category: 1
+  inventoryIndex: 5
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: a7b9caa8c79dbc1458015b2958556b2a, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 2
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 03df28e53576ac743ae7bf8fb369afcd, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: a605abd6e6ad77b4f9f0b69445775b12, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: 5e3ee136aa0e567409057a508a89e21b, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 3
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 0
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  placementRules: {fileID: 11400000, guid: 54eb7bffa55dd6348a0140350ab7e947, type: 2}
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: f4ea1fb65abf1a742af7b38e148b90e4, type: 2}
+    amount: 25
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817876394672128
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817876394672129
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 150
+        type: 50
+    - rid: 8881817876394672130
+      type: {class: WallData, ns: , asm: Assembly-CSharp}
+      data:
+        wallPieces:
+        - model_id: default
+          piece:
+            noConnections:
+              id: no_connections
+              name: No Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: a7b9caa8c79dbc1458015b2958556b2a, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 03df28e53576ac743ae7bf8fb369afcd, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: a605abd6e6ad77b4f9f0b69445775b12, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 5e3ee136aa0e567409057a508a89e21b, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 3
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 0
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            oneConnection:
+              id: one_connection
+              name: One Connection
+              layers:
+              - sprite: {fileID: 21300000, guid: c3ac3ee5e26d25f46b860a2d21caff5d, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: a50a8e97011e02e4d87936610368dec9, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: a605abd6e6ad77b4f9f0b69445775b12, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 5e3ee136aa0e567409057a508a89e21b, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 3
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 0
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            twoConnectionsCorner:
+              id: two_connection_corner
+              name: Two Connection Corner
+              layers:
+              - sprite: {fileID: 21300000, guid: 3b0ecf50af1888a49823c13b6ed96a35, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 68c017dd8ef9abc4dbc9adb0b1541a13, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 783d7071c32f55e44965a35f28654046, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 96368373f3138d1498de616ecea1ea54, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 3
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 0
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            twoConnectionsStraight:
+              id: two_connection_straight
+              name: Two Connection Straight
+              layers:
+              - sprite: {fileID: 21300000, guid: fb9b048cabf7aca4da31bacda56044ee, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 66277695735d72b468f5ed082e78c6a8, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: a605abd6e6ad77b4f9f0b69445775b12, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 5e3ee136aa0e567409057a508a89e21b, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 3
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 0
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            threeConnections:
+              id: three_connections
+              name: Three Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: dca149c4da2398f4ab49a01c4511cf5e, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 449e28de59bcebc419e16f1cffb7452a, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 2d4bf451951c18a4eb24d11c7ae59649, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: d3d63a2122fce9148b8b774873623b7c, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 3
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 0
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            fourConnections:
+              id: four_connections
+              name: Four Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: 8ad34edf42dddd94d85c92f5abf58e3a, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.13163047, g: 0.31519398, b: 0.5471698, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 2
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 548fb941d3edde246a2e5c545e629d2c, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.19215687, g: 0.54901963, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0

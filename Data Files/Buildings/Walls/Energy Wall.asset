@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19990b31cb420894cb2e86f6ca1c049c, type: 3}
+  m_Name: Energy Wall
+  m_EditorClassIdentifier: 
+  id: vec_energy_wall
+  name: Energy Wall
+  usePrefix: 1
+  prefix: vec_
+  description: A flow of current runs through the wall, electrocuting whatever touches
+    it.
+  useShortDesc: 1
+  shortDesc: Blocks incoming enemy units
+  components:
+  - rid: 8881817876394672129
+  - rid: 8881817876394672128
+  - rid: 8881817876394672130
+  preview: {fileID: 2800000, guid: f6d8eabbb495fd842a171bb65d749477, type: 2}
+  category: 1
+  inventoryIndex: 11
+  sortingLayer: building
+  previewSize: 10
+  model:
+    id: default
+    name: default
+    layers:
+    - sprite: {fileID: 21300000, guid: 1be4c847b2be215448a28243e9063647, type: 3}
+      material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 0
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 3
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: b42046e50afa54d41b36e65a4f0b1376, type: 3}
+      material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 1
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 4
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+    - sprite: {fileID: 21300000, guid: e06016d53216ed64aa6dcb71ed908f54, type: 3}
+      material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+      color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+      posX: 0
+      posY: 0
+      posZ: 0
+      index: 2
+      size: 1
+      useRotation: 0
+      rotation: 0
+      accent: 1
+      animationGroup: 0
+      overrideUI: 0
+      overrideSprite: {fileID: 0}
+      hideOnUI: 0
+      hideOnBlueprint: 0
+  placementRules: {fileID: 11400000, guid: 54eb7bffa55dd6348a0140350ab7e947, type: 2}
+  useBuilderDrones: 1
+  broadcastCreation: 1
+  usePlacementAnimation: 1
+  usePlacementSound: 1
+  useCustomSound: 0
+  placeSound: {fileID: 0}
+  useNormalCost: 1
+  normalCost:
+    resource: {fileID: 11400000, guid: 47ed932bcf58fe442baa323d33cddcfc, type: 2}
+    amount: 5
+  useSpecialCost: 0
+  specialCost:
+    resource: {fileID: 0}
+    amount: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8881817876394672128
+      type: {class: BuildingData, ns: , asm: Assembly-CSharp}
+      data:
+        width: 1
+        height: 1
+        requireAnyResource: 0
+        requiredResources: []
+        useDeathAnimation: 1
+        useUniqueAnimations: 0
+        deathParticle: {fileID: 0}
+        deathSound: {fileID: 0}
+    - rid: 8881817876394672129
+      type: {class: HealthData, ns: , asm: Assembly-CSharp}
+      data:
+        health: 250
+        type: 50
+    - rid: 8881817876394672130
+      type: {class: WallData, ns: , asm: Assembly-CSharp}
+      data:
+        wallPieces:
+        - model_id: default
+          piece:
+            noConnections:
+              id: wall_no_connections
+              name: Wall No Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: 1be4c847b2be215448a28243e9063647, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: b42046e50afa54d41b36e65a4f0b1376, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: e06016d53216ed64aa6dcb71ed908f54, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            oneConnection:
+              id: wall_one_connection
+              name: Wall One Connection
+              layers:
+              - sprite: {fileID: 21300000, guid: 978262c05530280438c5f9237b4c574b, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: b42046e50afa54d41b36e65a4f0b1376, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: e06016d53216ed64aa6dcb71ed908f54, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            twoConnectionsCorner:
+              id: wall_two_connection_corner
+              name: Wall Two Connection Corner
+              layers:
+              - sprite: {fileID: 21300000, guid: 574a5dac6da6f7647a3c486ec7a2a718, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 93caca602097c46418e42aae1028fa08, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 82d80ad3ef5e9bb4bba0f6fc4a923526, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            twoConnectionsStraight:
+              id: wall_two_connection_straight
+              name: Wall Two Connection Straight
+              layers:
+              - sprite: {fileID: 21300000, guid: a13fa1f4429f5fe4d85c6f61e9eb8613, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: b42046e50afa54d41b36e65a4f0b1376, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: e06016d53216ed64aa6dcb71ed908f54, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            threeConnections:
+              id: wall_three_connections
+              name: Wall Three Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: 1e4a73ee73d48914d8db772c322b2c77, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 93caca602097c46418e42aae1028fa08, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 82d80ad3ef5e9bb4bba0f6fc4a923526, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+            fourConnections:
+              id: wall_four_connections
+              name: Wall Four Connections
+              layers:
+              - sprite: {fileID: 21300000, guid: 1fd2d93e4f0ddfc488b11a573868f147, type: 3}
+                material: {fileID: 2100000, guid: 1d9ab654e0f09c74ea37eacee0f2dbea, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 0
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 3
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 93caca602097c46418e42aae1028fa08, type: 3}
+                material: {fileID: 2100000, guid: 33aca3625c85f4144b1497f924eb2a2a, type: 2}
+                color: {r: 1, g: 1, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 1
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 4
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0
+              - sprite: {fileID: 21300000, guid: 82d80ad3ef5e9bb4bba0f6fc4a923526, type: 3}
+                material: {fileID: 2100000, guid: 23a67b8b84eec8d41bdbc411c2914af1, type: 2}
+                color: {r: 0.44909483, g: 0.25943398, b: 1, a: 1}
+                posX: 0
+                posY: 0
+                posZ: 0
+                index: 2
+                size: 1
+                useRotation: 0
+                rotation: 0
+                accent: 1
+                animationGroup: 0
+                overrideUI: 0
+                overrideSprite: {fileID: 0}
+                hideOnUI: 0
+                hideOnBlueprint: 0

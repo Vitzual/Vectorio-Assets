@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1492e82b1bf6d3c49a34883fd5b20a65, type: 3}
+  m_Name: Liquid Nitrium
+  m_EditorClassIdentifier: 
+  id: resource_liquid_nitrium
+  name: Liquid Nitrium
+  usePrefix: 1
+  prefix: resource_
+  description: A liquid-based version of nitrium. Provides no power and cannot be
+    globally stored.
+  useShortDesc: 1
+  shortDesc: 
+  tile: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 831d5f845f5e5a14d9c4c6c109f8a3df, type: 3}
+  useUISprite: 0
+  iconUISprite: {fileID: 0}
+  accent:
+    primaryColor: {r: 1, g: 0.6665038, b: 0.3803922, a: 1}
+    secondaryColor: {r: 0.32941177, g: 0.20247862, b: 0.10588235, a: 1}
+    primaryMaterial: {fileID: 2100000, guid: 4fcf1d03367d95d4bb1cebd193a35157, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 4fcf1d03367d95d4bb1cebd193a35157, type: 2}
+  tier: 2
+  postfix: 
+  order: 152
+  power: 0
+  burnTime: 1
+  canBeStoredGlobally: 0
+  useSounds: 0
+  pickupSound: {fileID: 0}
+  dropoffSound: {fileID: 0}

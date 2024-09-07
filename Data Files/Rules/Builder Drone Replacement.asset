@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d800594d05f48cf45a729b3da1ae5559, type: 3}
+  m_Name: Builder Drone Replacement
+  m_EditorClassIdentifier: 
+  id: rule_builder_drone_replacement
+  name: Builder Drone Replacement
+  usePrefix: 1
+  prefix: rule_
+  description: This rule allows builder ports to replace pre-existing builder ports.
+    For the rule to pass, the entity must match one of the pre-determined data references.
+  useShortDesc: 1
+  shortDesc: 
+  rules: 2
+  entities:
+  - {fileID: 11400000, guid: 70ca62c3144f17d46b3f73ef97eaf36d, type: 2}
+  - {fileID: 11400000, guid: 1ef35d4ae0a0d8b4b85284b35fd43f1f, type: 2}
+  - {fileID: 11400000, guid: f13b60ca248f3884e9beb0d6ea6a729a, type: 2}
+  types: []
+  matchEveryType: 0
+  layer: 0
