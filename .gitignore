@@ -52,6 +52,9 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 
+# Unity generate meta files
+*.meta
+
 # Unity3D generated file on crash reports
 sysinfo.txt
 
