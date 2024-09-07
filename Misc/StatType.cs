@@ -1,6 +1,6 @@
 namespace Vectorio.Stats
 {
-    public enum StatType : int
+    public enum StatType : short
     {
         // BASE ENTITY STATS
         Unassigned = 0,
